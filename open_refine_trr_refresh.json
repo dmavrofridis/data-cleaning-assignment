@@ -1,0 +1,2102 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_on_duty",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NULL"
+      }
+    ],
+    "description": "Mass edit cells in column officer_on_duty"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_in_uniform",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NULL"
+      }
+    ],
+    "description": "Mass edit cells in column officer_in_uniform"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_in_uniform",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NULL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NULL"
+      }
+    ],
+    "description": "Mass edit cells in column officer_in_uniform"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "E"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "East"
+      }
+    ],
+    "description": "Mass edit cells in column direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North"
+      }
+    ],
+    "description": "Mass edit cells in column direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South"
+      }
+    ],
+    "description": "Mass edit cells in column direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "W"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "West"
+      }
+    ],
+    "description": "Mass edit cells in column direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_district_sergeant",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Yes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_district_sergeant"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_district_sergeant",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column notify_district_sergeant"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_district_sergeant",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Y"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_district_sergeant"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_oemc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Yes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_oemc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_oemc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Y"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_oemc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_oemc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column notify_oemc"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_oemc",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_oemc using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_op_command",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Yes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_op_command"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_op_command",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Y"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_op_command"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_op_command",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column notify_op_command"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_op_command",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_op_command using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_det_division",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Yes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column notify_det_division"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_det_division",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_det_division using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "beat",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column beat using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "indoor_or_outdoor",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OUTDOOR",
+          "Outdoor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OUTDOOR"
+      },
+      {
+        "from": [
+          "INDOOR",
+          "Indoor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INDOOR"
+      }
+    ],
+    "description": "Mass edit cells in column indoor_or_outdoor"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_rank",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CAPTAIN OF POLICE",
+          "Captain of Police"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAPTAIN OF POLICE"
+      },
+      {
+        "from": [
+          "LIEUTENANT OF POLICE",
+          "Lieutenant of Police"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LIEUTENANT OF POLICE"
+      },
+      {
+        "from": [
+          "DETENTION AIDE",
+          "Detention Aide"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DETENTION AIDE"
+      },
+      {
+        "from": [
+          "Sergeant of Police",
+          "SERGEANT OF POLICE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SERGEANT OF POLICE"
+      },
+      {
+        "from": [
+          "COMMANDER",
+          "Commander"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMMANDER"
+      },
+      {
+        "from": [
+          "Police Officer",
+          "POLICE OFFICER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POLICE OFFICER"
+      }
+    ],
+    "description": "Mass edit cells in column officer_rank"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_age",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_age using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_appointed_date",
+    "expression": "grel:value.toDate().toString(\"yyyy-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_appointed_date using expression grel:value.toDate().toString(\"yyyy-MM-dd\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_unit_detail",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "REDACTED"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column officer_unit_detail"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column location using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cha Hallway/stairwell/elevator"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cha Hallway/Stairwell/Elevator"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cha Hallway / Stairwell / Elevator"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cha Hallway/Stairwell/Elevator"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cha Parking Lot/grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cha Parking Lot/Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cha Parking Lot / Grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cha Parking Lot/Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Church/synagogue/place Of Worship"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Church/Synagogue/Place Of Worship"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Church / Synagogue / Place Of Worship"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Church/Synagogue/Place Of Worship"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_birth_year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_birth_year using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_birth_year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_birth_year using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ASIAN/PACIFIC ISLANDER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ASIAN/PACIFIC"
+      }
+    ],
+    "description": "Mass edit cells in column officer_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AMER IND/ALASKAN NATIVE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Native American/ALASKAN NATIVE"
+      }
+    ],
+    "description": "Mass edit cells in column officer_race"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_race",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_race using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Native American/alaskan Native"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Native American/Alaskan Native"
+      }
+    ],
+    "description": "Mass edit cells in column officer_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asian/pacific"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asian/Pacific"
+      }
+    ],
+    "description": "Mass edit cells in column officer_race"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_on_duty",
+    "expression": "grel:value.contains(\"Y\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_on_duty using expression grel:value.contains(\"Y\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_in_uniform",
+    "expression": "grel:value.contains(\"Y\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_in_uniform using expression grel:value.contains(\"Y\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_injured",
+    "expression": "grel:value.contains(\"Y\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_injured using expression grel:value.contains(\"Y\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_armed",
+    "expression": "grel:value.contains(\"Y\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_armed using expression grel:value.contains(\"Y\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_injured",
+    "expression": "grel:value.contains(\"Y\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_injured using expression grel:value.contains(\"Y\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_alleged_injury",
+    "expression": "grel:value.contains(\"Y\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_alleged_injury using expression grel:value.contains(\"Y\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_district_sergeant",
+    "expression": "grel:value.toString().contains(\"1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_district_sergeant using expression grel:value.toString().contains(\"1\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_oemc",
+    "expression": "grel:value.toString().contains(\"1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_oemc using expression grel:value.toString().contains(\"1\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_op_command",
+    "expression": "grel:value.toString().contains(\"1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_op_command using expression grel:value.toString().contains(\"1\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notify_det_division",
+    "expression": "grel:value.toString().contains(\"1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notify_det_division using expression grel:value.toString().contains(\"1\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_age",
+    "expression": "grel:value.replace(\"-\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_age using expression grel:value.replace(\"-\", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "officer_age",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column officer_age using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "subject_age",
+          "expression": "value",
+          "columnName": "subject_age",
+          "from": 1800,
+          "to": 2100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "subject_age",
+    "expression": "grel:2018 - value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_age using expression grel:2018 - value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "subject_age",
+          "expression": "value",
+          "columnName": "subject_age",
+          "from": 230,
+          "to": 940,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "subject_age",
+    "expression": "grel:value - 900",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_age using expression grel:value - 900"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "subject_birth_year",
+          "expression": "value",
+          "columnName": "subject_birth_year",
+          "from": 0,
+          "to": 1500,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "subject_birth_year",
+    "expression": "grel:2018 - value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_birth_year using expression grel:2018 - value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject_race using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unknown / Refused"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column subject_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asian/pacific Islander"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asian/Pacific"
+      }
+    ],
+    "description": "Mass edit cells in column subject_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asian / Pacific Islander"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asian/Pacific"
+      }
+    ],
+    "description": "Mass edit cells in column subject_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Amer Indian / Alaskan Native"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Native American/Alaskan Native"
+      }
+    ],
+    "description": "Mass edit cells in column subject_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column subject_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_race",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Amer Ind/alaskan Native"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Native American/Alaskan Native"
+      }
+    ],
+    "description": "Mass edit cells in column subject_race"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FEMALE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      }
+    ],
+    "description": "Mass edit cells in column subject_gender"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_gender",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MALE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M"
+      }
+    ],
+    "description": "Mass edit cells in column subject_gender"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "indoor_or_outdoor",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column indoor_or_outdoor using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "College / University - Grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "College/University Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "College/university Grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "College/University Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Factory/manufacturing Building"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Factory/Manufacturing Building"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Factory / Manufacturing Building"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Factory/Manufacturing Building"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Government Building/property"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Government Building/Property"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Government Building / Property"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Government Building/Property"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Highway / Expressway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Highway/Expressway"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Highway/expressway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Highway/Expressway"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hospital Building/grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hospital Building/Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hospital Building / Grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hospital Building/Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hotel / Motel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel/Motel"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hotel/motel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel/Motel"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lakefront / Waterfront / Riverbank"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lakefront/Waterfront/Riverbank"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Medical / Dental Office"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Medical/Dental Office"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Movie House / Theater"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Movie House/Theater"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Movie House/theater"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Movie House/Theater"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nursing Home/retirement Home"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nursing Home/Retirement Home"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nursing / Retirement Home"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nursing Home/Retirement Home"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other (specify)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Parking Lot/garage(non.Resid.)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parking Lot/Garage(Non.Resid.)"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Parking Lot / Garage (non Residential)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parking Lot/Garage(Non.Resid.)"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Police Facility/veh Parking Lot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Police Facility/Veh Parking Lot"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Police Facility / Vehicle Parking Lot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Police Facility/Veh Parking Lot"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residence - Garage"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residence-Garage"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residence-garage"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residence-Garage"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residence - Porch / Hallway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residence Porch/Hallway"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residence - Yard (front / Back)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residence - Yard (Front / Back)"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residence - Yard (Front / Back)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residence - Yard (Front/Back)"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residence Porch/hallway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residence Porch/Hallway"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Residential Yard (front/back)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Residential Yard (Front/Back)"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "School - Private Building"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School, Private, Building"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "School - Private Grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School, Private, Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "School - Public Building"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School, Public, Building"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "School - Public Grounds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School, Public, Grounds"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sports Arena/stadium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sports Arena/Stadium"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sports Arena / Stadium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sports Arena/Stadium"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tavern/liquor Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tavern/Liquor Store"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tavern / Liquor Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tavern/Liquor Store"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vacant Lot/land"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vacant Lot/Land"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vacant Lot / Land"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vacant Lot/Land"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vehicle - Commercial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vehicle-Commercial"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vehicle-commercial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vehicle-Commercial"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vehicle Non-commercial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vehicle Non-Commercial"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vehicle - Other Ride Share Service (lyft, Uber, Etc.)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vehicle - Other Ride Share Service"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vehicle - Other Ride Share Service"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vehicle - Other Ride Service"
+      }
+    ],
+    "description": "Mass edit cells in column location"
+  }
+]
