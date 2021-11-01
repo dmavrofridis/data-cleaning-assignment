@@ -7,22 +7,22 @@ import re
 
 if __name__ == '__main__':
 
-    name = " O JOHN DAUCE SR"
-    last_name_and_suffix = name.split()
-    last_name = ""
-    suffix = ""
-    for element in last_name_and_suffix:
-        if element in suffix_values:
-            suffix = element
-        else:
-            if last_name == "":
-                last_name = last_name + element
-            else:
-                last_name = last_name + " " + element
-
-    print(last_name)
-    print(suffix)
-    exit(0)
+    # name = " O JOHN DAUCE SR"
+    # last_name_and_suffix = name.split()
+    # last_name = ""
+    # suffix = ""
+    # for element in last_name_and_suffix:
+    #     if element in suffix_values:
+    #         suffix = element
+    #     else:
+    #         if last_name == "":
+    #             last_name = last_name + element
+    #         else:
+    #             last_name = last_name + " " + element
+    #
+    # print(last_name)
+    # print(suffix)
+    # exit(0)
 
     connection = connect_to_db()
     dataframes = []
@@ -33,8 +33,11 @@ if __name__ == '__main__':
         dataframes.append(df)
 
     # loop through the collected dataframes (tables) in order to perform the necessary steps
+
     for df in dataframes:
         print(df.name)
+        if df.name == 'trr_trr_refresh':
+            df['officer_appointed_date'] = type_correction.clean_officer_appointed_date(df)
         # Checkpoint 2.1 (Type Correction)
         for int_column in convert_to_int:
             df = type_correction.column_to_int(df, int_column)
@@ -44,6 +47,7 @@ if __name__ == '__main__':
             df = type_correction.column_to_date(df, date_column)
         for time_stamp_column in convert_to_time_stamp:
             df = type_correction.column_to_time_stamp(df, time_stamp_column)
+
 
         # Checkpoint 2.2 (Reconciliation)
         for string_column in reconciliation_to_string:

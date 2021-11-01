@@ -32,6 +32,74 @@ def column_to_date(df, column):
     return df
 
 
+
+def clean_officer_appointed_date(df):
+    cleaned_dates = []
+    for i in range(len(df['officer_appointed_date'])):
+        if 'OCT' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('OCT', '10')
+            cleaned_dates.append(t)
+        elif 'SEP' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('SEP', '09')
+            cleaned_dates.append(t)
+
+        elif 'AUG' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('AUG', '08')
+            cleaned_dates.append(t)
+        elif 'JUL' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('JUL', '07')
+            cleaned_dates.append(t)
+        elif 'JUN' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('JUN', '06')
+            cleaned_dates.append(t)
+
+
+
+        elif 'MAY' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('MAY', '05')
+            cleaned_dates.append(t)
+        elif 'APR' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('APR', '04')
+            cleaned_dates.append(t)
+        elif 'MAR' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('MAR', '03')
+            cleaned_dates.append(t)
+        elif 'FEB' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('FEB', '02')
+            cleaned_dates.append(t)
+        elif 'JAN' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('JAN', '01')
+            cleaned_dates.append(t)
+
+        elif 'DEC' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('DEC', '12')
+            t = cleaned_dates.append(t)
+        elif 'NOV' in df['officer_appointed_date'][i]:
+            t = df['officer_appointed_date'][i].replace('NOV', '11')
+            cleaned_dates.append(t)
+        else:
+            t= df['officer_appointed_date'][i]
+            t = t[-2:]+'-' + t[:-3]
+            if t[0] =='R' or t[0]=='E':
+                del t
+            elif t[:2] =='0-':
+                t = '0' +t
+                print(t)
+                cleaned_dates.append(t)
+            elif t[:2] == '1-':
+                t = t[0]+'0'+ t[2:]
+                cleaned_dates.append(t)
+            elif int(t[:2]) >0 and int(t[:2]) <20:
+                t = '20' +t
+                cleaned_dates.append(t)
+            else:
+                t = '19' +t
+                cleaned_dates.append(t)
+
+    fin = pd.DataFrame(cleaned_dates)
+    return fin
+
+
 def column_to_proper_case(df, column):
     if column in df:
 
@@ -40,21 +108,38 @@ def column_to_proper_case(df, column):
             # Remove the suffix from the last name if it exists and create new column to store the suffix
             suffix_list = []
             last_names = []
+
             officer_last_name_list = df['officer_last_name'].tolist()
             for last_name in officer_last_name_list:
-                # last name is going to be the first element and then second is going to be the suffix
-                last_name_and_suffix = re.split(' I | II | III | IV | V | JR | SR ', last_name)
-                if len(last_name_and_suffix) == 1:
-                    last_name_and_suffix.append(" ")
-                last_names.append(last_name_and_suffix[0])
-                suffix_list.append(last_name_and_suffix[1])
+                true_last_name = ""
+                suffixed = False
+                last_name_and_suffix = last_name.split()
 
+                for element in last_name_and_suffix:
+                    if element in suffix_values:
+                        suffix_list.append(element)
+                        suffixed = True
+                    else:
+                        if true_last_name == "":
+                            true_last_name = true_last_name + element
+                        else:
+                            true_last_name = true_last_name + " " + element
+                last_names.append(true_last_name)
+                if not suffixed:
+                    suffix_list.append("")
+                # last name is going to be the first element and then second is going to be the suffix
+                # last_name_and_suffix = re.split(' I | II | III | IV | V | JR | SR ', last_name)
+                # if len(last_name_and_suffix) == 1:
+                #     last_name_and_suffix.append(" ")
+                # last_names.append(last_name_and_suffix[0])
+                # suffix_list.append(last_name_and_suffix[1])
+            # print(suffix_list)
             df["officer_last_name"] = last_names
             df["officer_suffix"] = suffix_list
 
             # Only allow applicable suffix for the new columns
-            for suffix in suffix_name:
-                df.loc[df["officer_suffix"] != suffix, "officer_suffix"] = ""
+            # for suffix in suffix_list:
+            #     df.loc[df["officer_suffix"] != suffix, "officer_suffix"] = ""
 
         elif column == "officer_gender":
             for male_gender_value in male_gender_values:

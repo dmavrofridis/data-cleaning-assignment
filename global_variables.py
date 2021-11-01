@@ -13,7 +13,7 @@ convert_to_time_stamp = ["trr_datetime", "trr_created", "status_datetime"]
 convert_to_date = ["officer_appointed_date"]
 
 yes_values = ["Y", "YES", "Yes", "yes"]
-no_values = ["N", "NO", "No", "no"]
+no_values = ["N", "NO", "No", "no", "None"]
 
 '''Variables for Checkpoint 2.2 (Data Reconciliation)'''
 # officer_last_name - you may need to separate the last name from its suffix.
