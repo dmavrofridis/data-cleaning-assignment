@@ -3,17 +3,27 @@ from global_variables import *
 from read_data import *
 from write_data import *
 import type_correction
+import re
 
 if __name__ == '__main__':
 
-    if "AMER IND/ALASKAN NATIVE" in "Native American / Alaskan Native":
-        print(True)
-        exit(0)
+    name = " O JOHN DAUCE SR"
+    last_name_and_suffix = name.split()
+    last_name = ""
+    suffix = ""
+    for element in last_name_and_suffix:
+        if element in suffix_values:
+            suffix = element
+        else:
+            if last_name == "":
+                last_name = last_name + element
+            else:
+                last_name = last_name + " " + element
 
-    fileNames = ["trr_trr_refresh", "trr_actionresponse_refresh", "trr_charge_refresh",
-                 "trr_subjectweapon_refresh", "trr_trrstatus_refresh", "trr_weapondischarge_refresh"]
+    print(last_name)
+    print(suffix)
+    exit(0)
 
-    # Load the first file from the csv to pandas dataframe
     connection = connect_to_db()
     dataframes = []
     # get the tables using the list
@@ -38,8 +48,10 @@ if __name__ == '__main__':
         # Checkpoint 2.2 (Reconciliation)
         for string_column in reconciliation_to_string:
             df = type_correction.column_to_proper_case(df, string_column)
-        for bool_column in reconciliation_to_bool:
-            df = type_correction.column_to_proper_case(df, string_column)
+        for int_column in reconciliation_to_int:
+            df = type_correction.column_to_int(df, int_column)
+        for date_column in reconciliation_to_date:
+            df = type_correction.column_to_date(df, date_column)
 
         # Export all the files to CSV
         write_df_to_csv(df)
