@@ -6,6 +6,10 @@ import type_correction
 
 if __name__ == '__main__':
 
+    if "AMER IND/ALASKAN NATIVE" in "Native American / Alaskan Native":
+        print(True)
+        exit(0)
+
     fileNames = ["trr_trr_refresh", "trr_actionresponse_refresh", "trr_charge_refresh",
                  "trr_subjectweapon_refresh", "trr_trrstatus_refresh", "trr_weapondischarge_refresh"]
 
@@ -32,6 +36,10 @@ if __name__ == '__main__':
             df = type_correction.column_to_time_stamp(df, time_stamp_column)
 
         # Checkpoint 2.2 (Reconciliation)
+        for string_column in reconciliation_to_string:
+            df = type_correction.column_to_proper_case(df, string_column)
+        for bool_column in reconciliation_to_bool:
+            df = type_correction.column_to_proper_case(df, string_column)
 
         # Export all the files to CSV
         write_df_to_csv(df)
