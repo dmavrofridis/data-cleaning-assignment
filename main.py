@@ -1,6 +1,7 @@
 import pandas as pd
 from global_variables import *
 from read_data import *
+from write_data import *
 import type_correction
 
 if __name__ == '__main__':
@@ -32,10 +33,8 @@ if __name__ == '__main__':
 
         # Checkpoint 2.2 (Reconciliation)
 
-
         # Export all the files to CSV
-        path_for_csv = "/Users/dimitriosmavrofridis/Downloads/" + df.name + ".csv"
-        df.to_csv(path_for_csv, index=False, header=True)
+        write_df_to_csv(df)
 
 
 
