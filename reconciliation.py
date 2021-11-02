@@ -34,7 +34,7 @@ def column_to_proper_case(df, column):
         '''
         elif column == "street" or column == "location":
             df.loc["-" in df[column], column] = df[column].replace("-", " ")
-            '''
+        '''
 
         # Finally convert the string to title ( Proper Case ) after preprocessing
         df[column] = df[column].str.upper().str.title()
