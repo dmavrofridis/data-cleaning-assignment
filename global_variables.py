@@ -15,6 +15,7 @@ convert_to_date = ["officer_appointed_date"]
 yes_values = ["Y", "YES", "Yes", "yes"]
 no_values = ["N", "NO", "No", "no"]
 
+
 '''Variables for Checkpoint 2.2 (Data Reconciliation)'''
 # officer_last_name - you may need to separate the last name from its suffix.
 # officer_appointed_date - if the date is in the future, i.e., after 2021, subtract 100 years.
