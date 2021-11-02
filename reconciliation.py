@@ -73,7 +73,10 @@ def last_name_and_suffix(last_name):
 def date_correction(df, column):
     if column in df:
         df = type_correction.column_to_date_time(df, column)
-    # officer_appointed_date - if the date is in the future, i.e., after 2021, subtract 100 years.
+        if column == "officer_appointed_date":
+            # officer_appointed_date - if the date is in the future, i.e., after 2021, subtract 100 years.
+            pass
+
     return df
 
 
