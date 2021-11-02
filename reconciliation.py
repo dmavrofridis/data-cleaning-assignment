@@ -42,6 +42,7 @@ def column_to_proper_case(df, column):
     return df
 
 
+
 def column_race_correction(df, column):
     for race in race_values:
         words = race.lower().split("/")
