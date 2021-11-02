@@ -35,3 +35,12 @@ reconciled_female_value = "F"
 race_values = ["BLACK", "AMER IND/ALASKAN NATIVE", "ASIAN/PACIFIC ISLANDER", "UNKNOWN", "WHITE", "HISPANIC"]
 reconciled_race_values = ["Hispanic", "Black", "White", "Asian / Pacific", "Native American / Alaskan Native",
                           "Unknown"]
+
+'''Variables for Checkpoint 3 Data Integration (Linking the Officers)'''
+# first name, middle initial, last name, suffix name, birth year, appointed date, gender, race
+match_columns_org = ["first_name", "middle_initial","last_name", "birth_year", "appointed_date",
+                     "gender", "race"]
+match_columns_refresh = ["officer_first_name", "officer_middle_initial", "officer_last_name",
+                         "officer_birth_year", "officer_appointed_date", "officer_gender", "officer_race"]
+
+new_columns = ["officer_id", "officer_unit_id", "officer_unit_detail_id"]

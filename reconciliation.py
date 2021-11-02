@@ -70,12 +70,27 @@ def last_name_and_suffix(last_name):
     return last_name, suffix
 
 
+'''
 def date_correction(df, column):
     if column in df:
-        df = type_correction.column_to_date_time(df, column)
         if column == "officer_appointed_date":
+            df[column] = pd.to_datetime(df[column]).dt.date
+            df[column] = df[column].astype('object')
+            for i in range(len(df[column])):
+
+                if int(str(df[column][i])[0:4]) > 2016:
+                    print(int(str(df[column][i])[0:4]))
+                    df[column][i] = str(int(str(df[column][i])[0:4]) - 100)+str(df[column][i])[4:]
+    return df
+'''
+
+
+def date_correction(df, column):
+    if column in df:
+        if column == "officer_appointed_date":
+            df = type_correction.column_to_date_time(df, column)
             # officer_appointed_date - if the date is in the future, i.e., after 2021, subtract 100 years.
-            pass
+            # df.loc[pd.DatetimeIndex(df[column]).year > 2021, column] -= 100
 
     return df
 
