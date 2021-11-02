@@ -85,7 +85,7 @@ def date_correction(df, column):
                     df[column][i] = str(int(str(df[column][i])[0:4]) - 100) + str(df[column][i])[4:]
 #        df[column] = type_correction.column_to_date_time(df, column)
     return df
-'''
+
 
 '''
 def date_correction(df, column):
@@ -110,4 +110,6 @@ def int_correction(df, column):
             # subject_birth_year - this one might require sanity checks, e.g., if you see a birth year of 40 then map
             # it to 1940 for years > 5 and less than 100
             df.loc[(5 < df[column]) & (df[column] < 100), column] += 1900
+            df.loc[df[column] < 5, column] += 2000
+            df.loc[(df[column] >= 100) & (df[column] <= 1900), column] = 1980
     return df

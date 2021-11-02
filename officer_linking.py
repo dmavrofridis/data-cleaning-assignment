@@ -1,4 +1,20 @@
 from global_variables import *
+from global_variables import *
+import pandas as pd
+
+
+def generate_join(index_of_leave_out, table1, table2):
+    s = "join on"
+    for i in range(len(match_columns_org)):
+        if i == index_of_leave_out:
+            continue
+        else:
+            s += table1 + "." + match_columns_org[i] + "==" + table2 + "." + match_columns_refresh[i]
+        if i < len(match_columns_org):
+            s += "and"
+    print(s)
+    return s
+
 
 def officer_id_finder(df1, officer_table):
     officer_ids = []
