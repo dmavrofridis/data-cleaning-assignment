@@ -33,20 +33,20 @@ Chemical Weapon,,,,,,,,,,,,,,,,,96806
 Other (Specify),,,,,,,,,,,,,,,,,96806
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96830
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96846
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4, 9 MM,3.0,0,3.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,PERSON,STANDING,96849
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4, 9 MM,3.0,False,3.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,PERSON,STANDING,96849
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96857
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96861
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96881
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96882
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96889
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96894
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.6,45 CAL,5.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,WOODEN FENCE,05-10FT,PERSON,OTHER (SPECIFY),96895
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,30,4,45 CAL,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,DISTANCE,0-5FT,UNKNOWN,STANDING,96919
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.6,45 CAL,5.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,WOODEN FENCE,05-10FT,PERSON,OTHER (SPECIFY),96895
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,30,4,45 CAL,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,DISTANCE,0-5FT,UNKNOWN,STANDING,96919
 Chemical Weapon,,,,,,,,,,,,,,,,,96934
 Chemical Weapon,,,,,,,,,,,,,,,,,96935
 Chemical Weapon,,,,,,,,,,,,,,,,,96936
-Rifle,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,M&P 4,16,223/5.56,4.0,0,,RIGHT SIDE (WAIST),OTHER (SPECIFY),,true,NOT COVERED,OVER 15FT,UNKNOWN,STANDING,96944
-Rifle,GWINN FIREARMS  --US--  (BUSHMASTER),,XM15,14.5,223/5.56,10.0,0,,RIGHT SIDE (WAIST),OTHER (SPECIFY),,true,NOT COVERED,OVER 15FT,UNKNOWN,STANDING,96948
+Rifle,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,M&P 4,16,223/5.56,4.0,False,,RIGHT SIDE (WAIST),OTHER (SPECIFY),,true,NOT COVERED,OVER 15FT,UNKNOWN,STANDING,96944
+Rifle,GWINN FIREARMS  --US--  (BUSHMASTER),,XM15,14.5,223/5.56,10.0,False,,RIGHT SIDE (WAIST),OTHER (SPECIFY),,true,NOT COVERED,OVER 15FT,UNKNOWN,STANDING,96948
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96954
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96955
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,96962
@@ -59,7 +59,7 @@ Chemical Weapon,,,,,,,,,,,,,,,,,97023
 Other (Specify),,,,,,,,,,,,,,,,,97035
 Chemical Weapon,,,,,,,,,,,,,,,,,97047
 Chemical Weapon,,,,,,,,,,,,,,,,,97048
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,N/A,false,DUTY HOLSTER,10-15FT,OBJECT,STANDING,97082
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,N/A,false,DUTY HOLSTER,10-15FT,OBJECT,STANDING,97082
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97143
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97155
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97171
@@ -88,12 +88,12 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,97339
 Chemical Weapon,,,,,,,,,,,,,,,,,97348
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97355
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97358
-Semi-Auto Pistol,"F.I. INDUSTRIES(FORMERLY) --US-- (BERETTA USA CORP,BRONCO)",,PX4 STORM,4, 9 MM,12.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,DEPARTMENT VEHICLE,OVER 15FT,BOTH,STANDING,97371
+Semi-Auto Pistol,"F.I. INDUSTRIES(FORMERLY) --US-- (BERETTA USA CORP,BRONCO)",,PX4 STORM,4, 9 MM,12.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,DEPARTMENT VEHICLE,OVER 15FT,BOTH,STANDING,97371
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97372
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97378
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97390
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97402
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4 INCH, 9 MM,1.0,0,,RIGHT SIDE (WAIST),OTHER (SPECIFY),,false,NONE,05-10FT,PERSON,STANDING,97444
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4 INCH, 9 MM,1.0,False,,RIGHT SIDE (WAIST),OTHER (SPECIFY),,false,NONE,05-10FT,PERSON,STANDING,97444
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97455
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97512
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,97517
@@ -113,7 +113,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,97667
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97669
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97673
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97682
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4,45 CAL,2.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,0,true,NONE,05-10FT,PERSON,OTHER (SPECIFY),97693
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4,45 CAL,2.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,0,true,NONE,05-10FT,PERSON,OTHER (SPECIFY),97693
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97698
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97716
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97735
@@ -130,7 +130,7 @@ Chemical Weapon,,,,,,,,,,,,,,,,,97873
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97874
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97891
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97909
-Other (Specify),,,,,,0.0,0,0.0,RIGHT SIDE (WAIST),OTHER (SPECIFY),NONE,false,NONE,0-5FT,NONE,STANDING,97918
+Other (Specify),,,,,,0.0,False,0.0,RIGHT SIDE (WAIST),OTHER (SPECIFY),NONE,false,NONE,0-5FT,NONE,STANDING,97918
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97929
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97967
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,97976
@@ -147,19 +147,19 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,98042
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,98043
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98045
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98051
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4INCH, 9 MM,1.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,OVER 15FT,OBJECT,STANDING,98052
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4INCH, 9 MM,1.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,OVER 15FT,OBJECT,STANDING,98052
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98061
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98062
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98074
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98109
 Chemical Weapon,,,,,,,,,,,,,,,,,98110
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.49, 9 MM,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98111
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.49, 9 MM,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98111
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98117
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98136
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98157
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98169
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98205
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4, 9 MM,2.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98208
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4, 9 MM,2.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98208
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98217
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98243
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98245
@@ -168,12 +168,12 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,98267
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98268
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98272
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98273
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4.4, 9 MM,9.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98278
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4, 9 MM,3.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,PERSON,STANDING,98279
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4.48,40 S&W,9.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98280
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4.4, 9 MM,9.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98278
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4, 9 MM,3.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,PERSON,STANDING,98279
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4.48,40 S&W,9.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98280
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98288
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98295
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,27,3.5,40 S&W,4.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,PERSON,STANDING,98310
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,27,3.5,40 S&W,4.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,PERSON,STANDING,98310
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98316
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98320
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98325
@@ -182,10 +182,10 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,98350
 Other (Specify),,,,,,,,,,,,,,,,,98358
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98359
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98363
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4.4, 9 MM,2.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,false,NONE,05-10FT,PERSON,STANDING,98365
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,9.0,1,15.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,TACTICAL RELOAD/MAGAZINE,false,NONE,0-5FT,OBJECT,STANDING,98373
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,true,NONE,OVER 15FT,UNKNOWN,STANDING,98374
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,5.0,0,,LEFT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98376
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4.4, 9 MM,2.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,false,NONE,05-10FT,PERSON,STANDING,98365
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,9.0,True,15.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,TACTICAL RELOAD/MAGAZINE,false,NONE,0-5FT,OBJECT,STANDING,98373
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,true,NONE,OVER 15FT,UNKNOWN,STANDING,98374
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,5.0,False,,LEFT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,STANDING,98376
 Chemical Weapon,,,,,,,,,,,,,,,,,98418
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98466
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98496
@@ -213,8 +213,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,98662
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98664
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98665
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98668
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,2.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,OVER 15FT,NONE,SITTING,98671
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,23,4,40 S&W,13.0,1,14.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,EMERGENCY RELOAD,true,SQUAD CAR,OVER 15FT,OBJECT,SITTING,98675
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,2.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,OVER 15FT,NONE,SITTING,98671
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,23,4,40 S&W,13.0,True,14.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,EMERGENCY RELOAD,true,SQUAD CAR,OVER 15FT,OBJECT,SITTING,98675
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98701
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98709
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98717
@@ -225,14 +225,14 @@ Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,98754
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98756
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98759
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98768
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.75,45 CAL,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,GARBAGE CAN,OVER 15FT,UNKNOWN,OTHER (SPECIFY),98774
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.75,45 CAL,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,GARBAGE CAN,OVER 15FT,UNKNOWN,OTHER (SPECIFY),98774
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98780
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98790
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98794
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98812
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98839
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98849
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P229,4 IN, 9 MM,1.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,OBJECT,STANDING,98860
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P229,4 IN, 9 MM,1.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,OBJECT,STANDING,98860
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98881
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98892
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,98896
@@ -245,8 +245,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,99024
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99028
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99050
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99067
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,30,4, 45 ACP,4.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,10-15FT,UNKNOWN,SITTING,99075
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,6.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,10-15FT,UNKNOWN,SITTING,99078
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,30,4, 45 ACP,4.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,10-15FT,UNKNOWN,SITTING,99075
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,6.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,10-15FT,UNKNOWN,SITTING,99078
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99082
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99103
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99107
@@ -285,18 +285,18 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,99535
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99550
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99554
 Chemical Weapon,,,,,,,,,,,,,,,,,99584
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,10.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,CEMENT WALL,05-10FT,UNKNOWN,STANDING,99611
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.48, 9 MM,4.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,false,NONE,0-5FT,PERSON,STANDING,99612
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,10.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,CEMENT WALL,05-10FT,UNKNOWN,STANDING,99611
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.48, 9 MM,4.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,false,NONE,0-5FT,PERSON,STANDING,99612
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99614
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99624
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99625
 Chemical Weapon,,,,,,,,,,,,,,,,,99665
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P229,4, 9 MM,5.0,0,,LEFT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE AVAILABLE,OVER 15FT,UNKNOWN,STANDING,99667
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P229,4, 9 MM,5.0,False,,LEFT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE AVAILABLE,OVER 15FT,UNKNOWN,STANDING,99667
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99680
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99681
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99682
-Semi-Auto Pistol,"STURM, RUGER & CO. (BEARCAT,BLACKHAWK,SPEED SIX)",,LCP,2.75,380 ACP,1.0,0,0.0,OTHER (SPECIFY),STRONG SIDE DRAW,,false,NONE,0-5FT,UNKNOWN,STANDING,99707
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4, 9 MM,6.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,0,false,NONE,05-10FT,PERSON,STANDING,99718
+Semi-Auto Pistol,"STURM, RUGER & CO. (BEARCAT,BLACKHAWK,SPEED SIX)",,LCP,2.75,380 ACP,1.0,False,0.0,OTHER (SPECIFY),STRONG SIDE DRAW,,false,NONE,0-5FT,UNKNOWN,STANDING,99707
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4, 9 MM,6.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,0,false,NONE,05-10FT,PERSON,STANDING,99718
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99729
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99730
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99780
@@ -308,8 +308,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,99862
 Chemical Weapon,,,,,,,,,,,,,,,,,99921
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99921
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102678
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4, 9 MM,7.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,BUILDING,10-15FT,BOTH,STANDING,99930
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,26,3, 9 MM,11.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,CAR,10-15FT,PERSON,STANDING,99933
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4, 9 MM,7.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,BUILDING,10-15FT,BOTH,STANDING,99930
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,26,3, 9 MM,11.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,CAR,10-15FT,PERSON,STANDING,99933
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,99947
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99950
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,99953
@@ -330,27 +330,27 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,100113
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100121
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100138
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100152
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.48, 9 MM,10.0,1,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,SPEED RELOAD,true,POLICE VEHICLE,05-10FT,PERSON,STANDING,100157
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.49, 9 MM,2.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE DOOR,05-10FT,PERSON,STANDING,100158
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.48, 9 MM,10.0,True,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,SPEED RELOAD,true,POLICE VEHICLE,05-10FT,PERSON,STANDING,100157
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.49, 9 MM,2.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE DOOR,05-10FT,PERSON,STANDING,100158
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100166
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100189
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100201
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100221
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.6,45 CAL,2.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,BUSHES,10-15FT,PERSON,STANDING,100234
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.6,45 CAL,2.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,BUSHES,10-15FT,PERSON,STANDING,100234
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100235
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100236
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100239
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.49, 9 MM,4.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,OVER 15FT,PERSON,STANDING,100245
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.49, 9 MM,4.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,OVER 15FT,PERSON,STANDING,100245
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100246
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100255
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100267
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100285
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100293
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,1.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,BRICK WALL,0-5FT,UNKNOWN,STANDING,100297
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,0,0.0,OTHER (SPECIFY),OTHER (SPECIFY),,true,UNKNOWN,05-10FT,UNKNOWN,OTHER (SPECIFY),100298
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.5,45 CAL,14.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,BRICK WALL,05-10FT,PERSON,STANDING,100299
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,5.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,CONCRETE STAIRS,OVER 15FT,PERSON,KNEELING,100300
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P220,40,45 CAL,5.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,DNA,OVER 15FT,UNKNOWN,STANDING,100301
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,1.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,BRICK WALL,0-5FT,UNKNOWN,STANDING,100297
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,False,0.0,OTHER (SPECIFY),OTHER (SPECIFY),,true,UNKNOWN,05-10FT,UNKNOWN,OTHER (SPECIFY),100298
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.5,45 CAL,14.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,BRICK WALL,05-10FT,PERSON,STANDING,100299
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,5.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,CONCRETE STAIRS,OVER 15FT,PERSON,KNEELING,100300
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P220,40,45 CAL,5.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,DNA,OVER 15FT,UNKNOWN,STANDING,100301
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100306
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100309
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100318
@@ -360,7 +360,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,100358
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100378
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100382
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100408
-Semi-Auto Pistol,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,5943,4, 9 MM,1.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,DNA,10-15FT,UNKNOWN,STANDING,100423
+Semi-Auto Pistol,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,5943,4, 9 MM,1.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,DNA,10-15FT,UNKNOWN,STANDING,100423
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100444
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100445
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100446
@@ -393,10 +393,10 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,100746
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100748
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100753
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100760
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,9.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,CAR DOOR,0-5FT,PERSON,STANDING,100770
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,9.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,CAR DOOR,0-5FT,PERSON,STANDING,100770
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100775
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100777
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,23,4,40 S&W,3.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,PERSON,STANDING,100780
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,23,4,40 S&W,3.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,PERSON,STANDING,100780
 Chemical Weapon,,,,,,,,,,,,,,,,,100784
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100784
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,100786
@@ -406,8 +406,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,100894
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,100901
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100911
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100939
-Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4.4, 9 MM,2.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,0-5FT,NONE,OTHER (SPECIFY),100948
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.01, 9 MM,4.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,10-15FT,PERSON,STANDING,100951
+Semi-Auto Pistol,SIG/S. I. G./SWISS INDUSTRIAL GESELLSCHAFT   --SZ--,,P226,4.4, 9 MM,2.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,0-5FT,NONE,OTHER (SPECIFY),100948
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.01, 9 MM,4.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,10-15FT,PERSON,STANDING,100951
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100955
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100956
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,100959
@@ -525,8 +525,8 @@ Chemical Weapon,,,,,,,,,,,,,,,,,102668
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102670
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102676
 Chemical Weapon,,,,,,,,,,,,,,,,,102691
-Semi-Auto Pistol,SPRINGFIELD ARMS CO.--US--(NAME USED BY CRESCENT),,XDM,4.5, 9 MM,5.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,10-15FT,PERSON,SITTING,102741
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,16.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,0-5FT,PERSON,STANDING,102742
+Semi-Auto Pistol,SPRINGFIELD ARMS CO.--US--(NAME USED BY CRESCENT),,XDM,4.5, 9 MM,5.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,VEHICLE,10-15FT,PERSON,SITTING,102741
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,16.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,0-5FT,PERSON,STANDING,102742
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102755
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,102758
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102788
@@ -535,12 +535,12 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,102819
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102821
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102825
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102829
-Rifle,,,DEFENDER,16,,3.0,0,,,,,true,DISTANCE,,,,102831
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,3.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,DISTANCE,0-5FT,ANIMAL,STANDING,102832
+Rifle,,,DEFENDER,16,,3.0,False,,,,,true,DISTANCE,,,,102831
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,3.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,DISTANCE,0-5FT,ANIMAL,STANDING,102832
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102840
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102876
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,102925
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.49, 9 MM,3.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,05-10FT,PERSON,STANDING,102935
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.49, 9 MM,3.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,05-10FT,PERSON,STANDING,102935
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102942
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102962
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,102979
@@ -554,11 +554,11 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,103043
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103044
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103101
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103105
-Semi-Auto Pistol,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,M&P,4, 9 MM,3.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,PERSON,STANDING,103156
+Semi-Auto Pistol,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,M&P,4, 9 MM,3.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,PERSON,STANDING,103156
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103161
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103191
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103204
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.6, 45 ACP,14.0,1,13.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,EMERGENCY RELOAD,true,POLICE VEHICLE,OVER 15FT,BOTH,SITTING,103227
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.6, 45 ACP,14.0,True,13.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,EMERGENCY RELOAD,true,POLICE VEHICLE,OVER 15FT,BOTH,SITTING,103227
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103248
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103254
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103261
@@ -589,7 +589,7 @@ Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103584
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103600
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103642
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103645
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,8.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,OTHER (SPECIFY),103649
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,8.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,05-10FT,PERSON,OTHER (SPECIFY),103649
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103650
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103651
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103654
@@ -604,11 +604,11 @@ Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103701
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103720
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103768
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103770
-Semi-Auto Pistol,SPRINGFIELD ARMS CO.--US--(NAME USED BY CRESCENT),,XD,4, 45 ACP,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,WALL,10-15FT,OBJECT,STANDING,103793
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,CORNER OF BUILDING,OVER 15FT,UNKNOWN,STANDING,103795
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4.5,40 S&W,3.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,REAR FENCE,10-15FT,PERSON,STANDING,103797
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.5, 45 ACP,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,true,NO COVER,05-10FT,UNKNOWN,STANDING,103798
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,UNKNOWN,STANDING,103801
+Semi-Auto Pistol,SPRINGFIELD ARMS CO.--US--(NAME USED BY CRESCENT),,XD,4, 45 ACP,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,WALL,10-15FT,OBJECT,STANDING,103793
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,CORNER OF BUILDING,OVER 15FT,UNKNOWN,STANDING,103795
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4.5,40 S&W,3.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,REAR FENCE,10-15FT,PERSON,STANDING,103797
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.5, 45 ACP,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,NONE,true,NO COVER,05-10FT,UNKNOWN,STANDING,103798
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,1.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,UNKNOWN,STANDING,103801
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103812
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103814
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,103831
@@ -618,14 +618,14 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,103846
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103872
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103877
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103881
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4,40 S&W,6.0,1,15.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,LT HAND TACTICAL,false,SQUAD CAR,0-5FT,PERSON,STANDING,103890
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,23 GEN 4,4.02,40 S&W,6.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,NONE,0-5FT,PERSON,STANDING,103891
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,22,4,40 S&W,6.0,True,15.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,LT HAND TACTICAL,false,SQUAD CAR,0-5FT,PERSON,STANDING,103890
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,23 GEN 4,4.02,40 S&W,6.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,NONE,0-5FT,PERSON,STANDING,103891
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103896
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103904
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103905
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,103927
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,2.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,10-15FT,NONE,STANDING,103970
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.02, 9 MM,5.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,NONE,STANDING,103973
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,2.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,10-15FT,NONE,STANDING,103970
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.02, 9 MM,5.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,10-15FT,NONE,STANDING,103973
 Chemical Weapon,,,,,,,,,,,,,,,,,103992
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,104011
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104011
@@ -659,17 +659,17 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,104308
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104311
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104312
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104353
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,2.0,0,0.0,LEFT SIDE (WAIST),STRONG SIDE DRAW,N/A,false,NONE,10-15FT,PERSON,SITTING,104360
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4, 9 MM,2.0,False,0.0,LEFT SIDE (WAIST),STRONG SIDE DRAW,N/A,false,NONE,10-15FT,PERSON,SITTING,104360
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104398
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104408
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104424
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104426
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104435
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104460
-Semi-Auto Pistol,SPRINGFIELD ARMORY M1A,,XD-45,3.1, 45 ACP,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,false,NONE,0-5FT,PERSON,STANDING,104468
+Semi-Auto Pistol,SPRINGFIELD ARMORY M1A,,XD-45,3.1, 45 ACP,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,false,NONE,0-5FT,PERSON,STANDING,104468
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104482
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.02, 9 MM,11.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,DISTANCE,05-10FT,OBJECT,STANDING,104521
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,5.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,OBJECT,STANDING,104522
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,19,4.02, 9 MM,11.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,DNA,true,DISTANCE,05-10FT,OBJECT,STANDING,104521
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,5.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,0-5FT,OBJECT,STANDING,104522
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104538
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104548
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104551
@@ -689,7 +689,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,104676
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104679
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104680
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104683
-Semi-Auto Pistol,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,M&P,4.25, 9 MM,5.0,0,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,10-15FT,UNKNOWN,STANDING,104689
+Semi-Auto Pistol,"SMITH & WESSON  -US- (BODYGUARD,CHIEF SPECIAL)",,M&P,4.25, 9 MM,5.0,False,,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,true,NONE,10-15FT,UNKNOWN,STANDING,104689
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104690
 Taser (Drive Stun Mode),,,,,,,,,,,,,,,,,104704
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104731
@@ -699,7 +699,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,104819
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104820
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104845
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104858
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.48, 9 MM,5.0,0,,LEFT SIDE (WAIST),STRONG SIDE DRAW,,true,PINNED BETWEEN VEHICLES,05-10FT,PERSON,STANDING,104863
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.48, 9 MM,5.0,False,,LEFT SIDE (WAIST),STRONG SIDE DRAW,,true,PINNED BETWEEN VEHICLES,05-10FT,PERSON,STANDING,104863
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104926
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104946
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,104969
@@ -709,7 +709,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,104994
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105018
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105047
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105059
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.61,45 CAL,1.0,0,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,OVER 15FT,NONE,STANDING,105065
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,21,4.61,45 CAL,1.0,False,0.0,RIGHT SIDE (WAIST),STRONG SIDE DRAW,,false,NONE,OVER 15FT,NONE,STANDING,105065
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105096
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105100
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105104
@@ -722,7 +722,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,,,105197
 Chemical Weapon,,,,,,,,,,,,,,,,,105200
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105247
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105250
-Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,18.0,1,1.0,LEFT SIDE (WAIST),STRONG SIDE DRAW,TACTICAL RELOAD,true,"SHIELDING AND COVER, TACTICAL RETREAT",OVER 15FT,NONE,STANDING,105260
+Semi-Auto Pistol,"GLOCK, INC.--AU--",,17,4.5, 9 MM,18.0,True,1.0,LEFT SIDE (WAIST),STRONG SIDE DRAW,TACTICAL RELOAD,true,"SHIELDING AND COVER, TACTICAL RETREAT",OVER 15FT,NONE,STANDING,105260
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105290
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105294
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,105295
@@ -768,20 +768,20 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,386607
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,387120
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,387165
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,387183
-Semi-Auto Pistol,,GLOCK GMBH,17,,,7.0,0,,,,,,,,SUBJECT,,387472
+Semi-Auto Pistol,,GLOCK GMBH,17,,,7.0,False,,,,,,,,SUBJECT,,387472
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,387883
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,388956
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,389387
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,393000
-Semi-Auto Pistol,,GLOCK GMBH,17,,,9.0,0,,,,,,,,UNKNOWN,,393020
-Semi-Auto Pistol,,"SPRINGFIELD ARMORY,GENESEO,IL",XD9,,,14.0,1,,,,,,,,UNKNOWN,,393021
+Semi-Auto Pistol,,GLOCK GMBH,17,,,9.0,False,,,,,,,,UNKNOWN,,393020
+Semi-Auto Pistol,,"SPRINGFIELD ARMORY,GENESEO,IL",XD9,,,14.0,True,,,,,,,,UNKNOWN,,393021
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,396997
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,398871
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,398937
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,399012
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,399105
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,401509
-Semi-Auto Pistol,,GLOCK GMBH,42,,,1.0,0,,,,,,,,SUBJECT,,401602
+Semi-Auto Pistol,,GLOCK GMBH,42,,,1.0,False,,,,,,,,SUBJECT,,401602
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,407932
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,408005
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,409070
@@ -793,17 +793,17 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,412105
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,412420
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,414702
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,419131
-Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,0,,,,,,,,OBJECT,,420870
-Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,0,,,,,,,,UNKNOWN,,420877
-Semi-Auto Pistol,,SMITH & WESSON,M&P,,,1.0,0,,,,,,,,OBJECT,,420945
+Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,False,,,,,,,,OBJECT,,420870
+Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,False,,,,,,,,UNKNOWN,,420877
+Semi-Auto Pistol,,SMITH & WESSON,M&P,,,1.0,False,,,,,,,,OBJECT,,420945
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,421862
-Semi-Auto Pistol,,GLOCK GMBH,17,,,3.0,0,,,,,,,,SUBJECT,,424638
-Semi-Auto Pistol,,GLOCK GMBH,17,,,3.0,0,,,,,,,,SUBJECT,,424755
+Semi-Auto Pistol,,GLOCK GMBH,17,,,3.0,False,,,,,,,,SUBJECT,,424638
+Semi-Auto Pistol,,GLOCK GMBH,17,,,3.0,False,,,,,,,,SUBJECT,,424755
 Taser (Probe Discharge),,,,,,,,,,,,,,,OBJECT,,426034
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,428376
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,428380
-Semi-Auto Pistol,,RUGER,LCP,,,2.0,0,,,,,,,,NONE,,428917
-Revolver,,SMITH & WESSON,38,,,1.0,0,,,,,,,,NONE,,428986
+Semi-Auto Pistol,,RUGER,LCP,,,2.0,False,,,,,,,,NONE,,428917
+Revolver,,SMITH & WESSON,38,,,1.0,False,,,,,,,,NONE,,428986
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,431103
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,431570
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,432843
@@ -814,7 +814,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,447910
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,450937
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,451238
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,453513
-Semi-Auto Pistol,,GLOCK GMBH,19,,,4.0,0,,,,,,,,SUBJECT,,453802
+Semi-Auto Pistol,,GLOCK GMBH,19,,,4.0,False,,,,,,,,SUBJECT,,453802
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,454969
 Other (Specify),,,,,,,,,,,,,,,NONE,,456570
 Other (Specify),,,,,,,,,,,,,,,NONE,,457517
@@ -823,8 +823,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,461306
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,463983
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,465507
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,466003
-Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,0,,,,,,,,SUBJECT,,468384
-Taser (Probe Discharge),,,,,,,0,,,,,,,,SUBJECT,,468384
+Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,False,,,,,,,,SUBJECT,,468384
+Taser (Probe Discharge),,,,,,,False,,,,,,,,SUBJECT,,468384
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,468516
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,470775
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,472679
@@ -835,7 +835,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,490255
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,491766
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,493134
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,494762
-Semi-Auto Pistol,,"SAUER, J. P. (SAUER & SOHN)",P220,,,4.0,0,,,,,,,,SUBJECT,,494815
+Semi-Auto Pistol,,"SAUER, J. P. (SAUER & SOHN)",P220,,,4.0,False,,,,,,,,SUBJECT,,494815
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,495433
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,495639
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,500033
@@ -854,8 +854,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,525082
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,531327
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,531523
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,534118
-Semi-Auto Pistol,,GLOCK GMBH,19,,,2.0,0,,,,,,,,UNKNOWN,,534977
-Semi-Auto Pistol,,GLOCK GMBH,19,,,3.0,0,,,,,,,,SUBJECT,,535457
+Semi-Auto Pistol,,GLOCK GMBH,19,,,2.0,False,,,,,,,,UNKNOWN,,534977
+Semi-Auto Pistol,,GLOCK GMBH,19,,,3.0,False,,,,,,,,SUBJECT,,535457
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,536576
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,537310
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,537636
@@ -865,16 +865,16 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,541684
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,542389
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,544108
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,544866
-Semi-Auto Pistol,,"SPRINGFIELD ARMORY,GENESEO,IL",XDM,,,3.0,0,,,,,,,,SUBJECT,,547133
+Semi-Auto Pistol,,"SPRINGFIELD ARMORY,GENESEO,IL",XDM,,,3.0,False,,,,,,,,SUBJECT,,547133
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,549757
 Other (Specify),,,,,,,,,,,,,,,NONE,,549933
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,552827
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,553664
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,553802
-Other (Specify),,,,,,,0,,,,,,,,SUBJECT,,555904
-Rifle,,BUSHMASTER FIREARMS,XM15E2,,,1.0,0,,,,,,,,SUBJECT,,555904
-Other (Specify),,,,,,,0,,,,,,,,SUBJECT,,555911
-Rifle,,REMINGTON ARMS CO.,870,,,1.0,0,,,,,,,,SUBJECT,,555911
+Other (Specify),,,,,,,False,,,,,,,,SUBJECT,,555904
+Rifle,,BUSHMASTER FIREARMS,XM15E2,,,1.0,False,,,,,,,,SUBJECT,,555904
+Other (Specify),,,,,,,False,,,,,,,,SUBJECT,,555911
+Rifle,,REMINGTON ARMS CO.,870,,,1.0,False,,,,,,,,SUBJECT,,555911
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,556989
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,557130
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,558328
@@ -891,8 +891,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,566809
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,567525
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,567537
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,570281
-Semi-Auto Pistol,,GLOCK GMBH,17,,,8.0,0,,,,,,,,SUBJECT,,572692
-Semi-Auto Pistol,,GLOCK GMBH,17,,,2.0,0,,,,,,,,SUBJECT,,572743
+Semi-Auto Pistol,,GLOCK GMBH,17,,,8.0,False,,,,,,,,SUBJECT,,572692
+Semi-Auto Pistol,,GLOCK GMBH,17,,,2.0,False,,,,,,,,SUBJECT,,572743
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,573591
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,576229
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,577988
@@ -902,7 +902,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,579039
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,579111
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,579694
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,581965
-Semi-Auto Pistol,,GLOCK GMBH,19,,,5.0,0,,,,,,,,SUBJECT,,583253
+Semi-Auto Pistol,,GLOCK GMBH,19,,,5.0,False,,,,,,,,SUBJECT,,583253
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,583540
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,586349
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,589844
@@ -935,8 +935,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,616398
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,616935
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,617742
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,617743
-Semi-Auto Pistol,,GLOCK GMBH,19,,,11.0,0,,,,,,,,UNKNOWN,,627186
-Semi-Auto Pistol,,GLOCK GMBH,17,,,7.0,0,,,,,,,,UNKNOWN,,627195
+Semi-Auto Pistol,,GLOCK GMBH,19,,,11.0,False,,,,,,,,UNKNOWN,,627186
+Semi-Auto Pistol,,GLOCK GMBH,17,,,7.0,False,,,,,,,,UNKNOWN,,627195
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,629237
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,631719
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,631782
@@ -962,7 +962,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,OBJECT,,681607
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,685633
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,686371
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,687532
-Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,0,,,,,,,,SUBJECT,,689245
+Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,False,,,,,,,,SUBJECT,,689245
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,690167
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,691004
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,691721
@@ -971,12 +971,12 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,694448
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,694498
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,703948
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,704685
-Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,0,,,,,,,,SUBJECT,,706383
+Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,False,,,,,,,,SUBJECT,,706383
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,706755
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,710757
-Rifle,,BUSHMASTER FIREARMS,XM15E2,,,5.0,0,,,,,,,,SUBJECT,,716202
-Rifle,,BUSHMASTER FIREARMS,XM15E2,,,5.0,0,,,,,,,,SUBJECT,,716386
-Semi-Auto Pistol,,SMITH & WESSON,M&P,,,4.0,0,,,,,,,,SUBJECT,,717871
+Rifle,,BUSHMASTER FIREARMS,XM15E2,,,5.0,False,,,,,,,,SUBJECT,,716202
+Rifle,,BUSHMASTER FIREARMS,XM15E2,,,5.0,False,,,,,,,,SUBJECT,,716386
+Semi-Auto Pistol,,SMITH & WESSON,M&P,,,4.0,False,,,,,,,,SUBJECT,,717871
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,723075
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,723102
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,723116
@@ -986,7 +986,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,740151
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,746497
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,747533
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,748669
-Revolver,,SMITH & WESSON,686,,,1.0,0,,,,,,,,NONE,,748965
+Revolver,,SMITH & WESSON,686,,,1.0,False,,,,,,,,NONE,,748965
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,757231
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,757308
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,757313
@@ -995,7 +995,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,757354
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,757707
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,763983
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,765730
-Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,0,,,,,,,,UNKNOWN,,772734
+Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,False,,,,,,,,UNKNOWN,,772734
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,773290
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,778904
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,795609
@@ -1012,7 +1012,7 @@ Chemical Weapon,,,,,,,,,,,,,,,OTHER PERSON,,831580
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,832983
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,834914
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,842081
-Semi-Auto Pistol,,SMITH & WESSON,M&P,,,4.0,0,,,,,,,,OBJECT,,850483
+Semi-Auto Pistol,,SMITH & WESSON,M&P,,,4.0,False,,,,,,,,OBJECT,,850483
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,864031
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,878307
 Chemical Weapon,,,,,,,,,,,,,,,,,894708
@@ -1024,10 +1024,10 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,920662
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,923412
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,925335
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,927486
-Semi-Auto Pistol,,GLOCK GMBH,19,,,8.0,0,,,,,,,,UNKNOWN,,928121
-Semi-Auto Pistol,,GLOCK GMBH,19,,,14.0,0,,,,,,,,SUBJECT,,928126
-Semi-Auto Pistol,,GLOCK GMBH,19,,,8.0,0,,,,,,,,UNKNOWN,,928128
-Semi-Auto Pistol,,GLOCK GMBH,17,,,14.0,0,,,,,,,,UNKNOWN,,928152
+Semi-Auto Pistol,,GLOCK GMBH,19,,,8.0,False,,,,,,,,UNKNOWN,,928121
+Semi-Auto Pistol,,GLOCK GMBH,19,,,14.0,False,,,,,,,,SUBJECT,,928126
+Semi-Auto Pistol,,GLOCK GMBH,19,,,8.0,False,,,,,,,,UNKNOWN,,928128
+Semi-Auto Pistol,,GLOCK GMBH,17,,,14.0,False,,,,,,,,UNKNOWN,,928152
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,931976
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,936454
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,936620
@@ -1038,7 +1038,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,981202
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,987223
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,987811
 Taser (Probe Discharge),,,,,,,,,,,,,,,,,989456
-Semi-Auto Pistol,,GLOCK GMBH,26,,,1.0,0,,,,,,,,OBJECT,,997787
+Semi-Auto Pistol,,GLOCK GMBH,26,,,1.0,False,,,,,,,,OBJECT,,997787
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1007651
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1020303
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1022698
@@ -1066,28 +1066,28 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1404205
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1441620
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1450272
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1455002
-Semi-Auto Pistol,,GLOCK GMBH,19,,,11.0,1,,,,,,,,UNKNOWN,,1460357
-Semi-Auto Pistol,,GLOCK GMBH,17,,,9.0,0,,,,,,,,SUBJECT,,1460383
+Semi-Auto Pistol,,GLOCK GMBH,19,,,11.0,True,,,,,,,,UNKNOWN,,1460357
+Semi-Auto Pistol,,GLOCK GMBH,17,,,9.0,False,,,,,,,,SUBJECT,,1460383
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1460585
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1500596
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1503286
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,1527738
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,1541739
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1548543
-Semi-Auto Pistol,,GLOCK GMBH,17,,,5.0,0,,,,,,,,SUBJECT,,1602368
-Rifle,,BUSHMASTER FIREARMS,M4,,,2.0,0,,,,,,,,SUBJECT,,1602902
+Semi-Auto Pistol,,GLOCK GMBH,17,,,5.0,False,,,,,,,,SUBJECT,,1602368
+Rifle,,BUSHMASTER FIREARMS,M4,,,2.0,False,,,,,,,,SUBJECT,,1602902
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1616844
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1619222
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1634743
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1635464
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1648314
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1649290
-Semi-Auto Pistol,,"S.I.G. (SWISS INDUSTRIEL GESELLSHAFT),SIG-ARMS,SIG-SAUER",P320,,,6.0,0,,,,,,,,UNKNOWN,,1649858
-Semi-Auto Pistol,,"S.I.G. (SWISS INDUSTRIEL GESELLSHAFT),SIG-ARMS,SIG-SAUER",P320,,,1.0,0,,,,,,,,UNKNOWN,,1650049
+Semi-Auto Pistol,,"S.I.G. (SWISS INDUSTRIEL GESELLSHAFT),SIG-ARMS,SIG-SAUER",P320,,,6.0,False,,,,,,,,UNKNOWN,,1649858
+Semi-Auto Pistol,,"S.I.G. (SWISS INDUSTRIEL GESELLSHAFT),SIG-ARMS,SIG-SAUER",P320,,,1.0,False,,,,,,,,UNKNOWN,,1650049
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1650155
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1667231
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1691003
-Semi-Auto Pistol,,GLOCK GMBH,17,,,4.0,0,,,,,,,,SUBJECT,,1702550
+Semi-Auto Pistol,,GLOCK GMBH,17,,,4.0,False,,,,,,,,SUBJECT,,1702550
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,1850040
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,1851340
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,1861535
@@ -1119,7 +1119,7 @@ Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,2237017
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,2269711
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2278030
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,2291768
-Semi-Auto Pistol,,GLOCK GMBH,17,,,7.0,0,,,,,,,,SUBJECT,,2307633
+Semi-Auto Pistol,,GLOCK GMBH,17,,,7.0,False,,,,,,,,SUBJECT,,2307633
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2336045
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2336460
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2353501
@@ -1138,8 +1138,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2766227
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2772218
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2788432
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2806336
-Semi-Auto Pistol,,GLOCK GMBH,19,,,8.0,0,,,,,,,,UNKNOWN,,2821123
-Semi-Auto Pistol,,GLOCK GMBH,17,,,9.0,0,,,,,,,,UNKNOWN,,2821128
+Semi-Auto Pistol,,GLOCK GMBH,19,,,8.0,False,,,,,,,,UNKNOWN,,2821123
+Semi-Auto Pistol,,GLOCK GMBH,17,,,9.0,False,,,,,,,,UNKNOWN,,2821128
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2847865
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,2881107
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3008995
@@ -1166,14 +1166,14 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3322876
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3325674
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3364627
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3393317
-Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,0,,,,,,,,UNKNOWN,,3412460
-Semi-Auto Pistol,,GLOCK GMBH,23,,,14.0,0,,,,,,,,UNKNOWN,,3412816
-Semi-Auto Pistol,,"SAUER, J. P. (SAUER & SOHN)",P226,,,1.0,0,,,,,,,,SUBJECT,,3414859
-Semi-Auto Pistol,,GLOCK GMBH,17,,,4.0,0,,,,,,,,UNKNOWN,,3415022
-Rifle,,DSA INC.,M4,,,2.0,0,,,,,,,,UNKNOWN,,3415065
-Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,0,,,,,,,,UNKNOWN,,3415102
-Rifle,,SMITH & WESSON,M&P 15,,,5.0,0,,,,,,,,UNKNOWN,,3415118
-Semi-Auto Pistol,,GLOCK GMBH,21,,,4.0,0,,,,,,,,SUBJECT,,3415481
+Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,False,,,,,,,,UNKNOWN,,3412460
+Semi-Auto Pistol,,GLOCK GMBH,23,,,14.0,False,,,,,,,,UNKNOWN,,3412816
+Semi-Auto Pistol,,"SAUER, J. P. (SAUER & SOHN)",P226,,,1.0,False,,,,,,,,SUBJECT,,3414859
+Semi-Auto Pistol,,GLOCK GMBH,17,,,4.0,False,,,,,,,,UNKNOWN,,3415022
+Rifle,,DSA INC.,M4,,,2.0,False,,,,,,,,UNKNOWN,,3415065
+Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,False,,,,,,,,UNKNOWN,,3415102
+Rifle,,SMITH & WESSON,M&P 15,,,5.0,False,,,,,,,,UNKNOWN,,3415118
+Semi-Auto Pistol,,GLOCK GMBH,21,,,4.0,False,,,,,,,,SUBJECT,,3415481
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3418817
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3423466
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,3425267
@@ -1209,7 +1209,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4342706
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4351935
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4402124
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4402133
-Semi-Auto Pistol,,GLOCK GMBH,17,,,6.0,0,,,,,,,,SUBJECT,,4430478
+Semi-Auto Pistol,,GLOCK GMBH,17,,,6.0,False,,,,,,,,SUBJECT,,4430478
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,4459431
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4518614
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4554173
@@ -1226,13 +1226,13 @@ Chemical Weapon,,,,,,,,,,,,,,,UNKNOWN,,4635836
 Chemical Weapon,,,,,,,,,,,,,,,OBJECT,,4635849
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4664330
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4686334
-Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,0,,,,,,,,UNKNOWN,,4692677
+Semi-Auto Pistol,,GLOCK GMBH,19,,,1.0,False,,,,,,,,UNKNOWN,,4692677
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4720268
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4725920
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4741333
-Semi-Auto Pistol,,"S.I.G. (SWISS INDUSTRIEL GESELLSHAFT),SIG-ARMS,SIG-SAUER",P226,,,2.0,0,,,,,,,,SUBJECT,,4798329
+Semi-Auto Pistol,,"S.I.G. (SWISS INDUSTRIEL GESELLSHAFT),SIG-ARMS,SIG-SAUER",P226,,,2.0,False,,,,,,,,SUBJECT,,4798329
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4807900
-Semi-Auto Pistol,,GLOCK GMBH,17,,,3.0,0,,,,,,,,SUBJECT,,4819918
+Semi-Auto Pistol,,GLOCK GMBH,17,,,3.0,False,,,,,,,,SUBJECT,,4819918
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4820392
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4840454
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,4887495
@@ -1244,22 +1244,22 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5124692
 Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,5136949
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5184036
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5196438
-Semi-Auto Pistol,,"SAUER, J. P. (SAUER & SOHN)",P228,,,3.0,0,,,,,,,,UNKNOWN,,5208466
+Semi-Auto Pistol,,"SAUER, J. P. (SAUER & SOHN)",P228,,,3.0,False,,,,,,,,UNKNOWN,,5208466
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5238077
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,5258439
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5271859
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5277021
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5283418
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5402492
-Chemical Weapon,,,,,,,0,,,,,,,,SUBJECT,,5437745
-Semi-Auto Pistol,,GLOCK GMBH,19,,,2.0,0,,,,,,,,SUBJECT,,5437745
-Taser (Probe Discharge),,,,,,,0,,,,,,,,SUBJECT,,5437745
+Chemical Weapon,,,,,,,False,,,,,,,,SUBJECT,,5437745
+Semi-Auto Pistol,,GLOCK GMBH,19,,,2.0,False,,,,,,,,SUBJECT,,5437745
+Taser (Probe Discharge),,,,,,,False,,,,,,,,SUBJECT,,5437745
 Taser (Probe Discharge),,,,,,,,,,,,,,,UNKNOWN,,5437763
 Other (Specify),,,,,,,,,,,,,,,SUBJECT,,5446070
-Semi-Auto Pistol,,GLOCK GMBH,19,,,13.0,1,,,,,,,,SUBJECT,,5453112
+Semi-Auto Pistol,,GLOCK GMBH,19,,,13.0,True,,,,,,,,SUBJECT,,5453112
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5475790
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5476518
-Semi-Auto Pistol,,GLOCK GMBH,26,,,1.0,0,,,,,,,,SUBJECT,,5525512
+Semi-Auto Pistol,,GLOCK GMBH,26,,,1.0,False,,,,,,,,SUBJECT,,5525512
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5552004
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5574695
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5603387
@@ -1275,7 +1275,7 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,NONE,,5803374
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5806591
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5811990
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5897444
-Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,0,,,,,,,,NONE,,5899540
+Semi-Auto Pistol,,GLOCK GMBH,17,,,1.0,False,,,,,,,,NONE,,5899540
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5909505
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5909581
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5909717
@@ -1284,8 +1284,8 @@ Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5922363
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5922448
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5923624
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5923870
-Other (Specify),,,,,,,0,,,,,,,,UNKNOWN,,5924119
-Shotgun,,REMINGTON ARMS CO.,870,,,1.0,0,,,,,,,,UNKNOWN,,5924119
+Other (Specify),,,,,,,False,,,,,,,,UNKNOWN,,5924119
+Shotgun,,REMINGTON ARMS CO.,870,,,1.0,False,,,,,,,,UNKNOWN,,5924119
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5933119
 Chemical Weapon,,,,,,,,,,,,,,,SUBJECT,,5946921
 Taser (Probe Discharge),,,,,,,,,,,,,,,SUBJECT,,5956706

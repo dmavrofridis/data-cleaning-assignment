@@ -4,8 +4,7 @@ fileNames = ["trr_trr_refresh", "trr_actionresponse_refresh", "trr_charge_refres
              "trr_subjectweapon_refresh", "trr_trrstatus_refresh", "trr_weapondischarge_refresh"]
 
 '''Variables for Checkpoint 2.1 (Data Cleaning)'''
-convert_to_int = ["beat", "officer_birth_year", "officer_age", "subject_birth_year", "subject_age",
-                  "officer_birth_year"]
+convert_to_int = ["beat", "officer_birth_year", "officer_age", "subject_birth_year", "subject_age"]
 convert_to_bool = ["officer_on_duty", "officer_injured", "officer_in_uniform", "subject_armed",
                    "subject_injured", "subject_alleged_injury", "notify_oemc", "notify_district_sergeant",
                    "notify_op_command", "notify_det_division", "firearm_reloaded", "sight_used"]
@@ -38,9 +37,10 @@ reconciled_race_values = ["Hispanic", "Black", "White", "Asian / Pacific", "Nati
 
 '''Variables for Checkpoint 3 Data Integration (Linking the Officers)'''
 # first name, middle initial, last name, suffix name, birth year, appointed date, gender, race
-match_columns_org = ["first_name", "middle_initial","last_name", "birth_year", "appointed_date",
-                     "gender", "race"]
+match_columns_org = ["first_name", "middle_initial", "last_name", "birth_year", "appointed_date",
+                     "gender", "race", "suffix_name"]
 match_columns_refresh = ["officer_first_name", "officer_middle_initial", "officer_last_name",
-                         "officer_birth_year", "officer_appointed_date", "officer_gender", "officer_race"]
+                         "officer_birth_year", "officer_appointed_date", "officer_gender", "officer_race",
+                         "officer_suffix"]
 
 new_columns = ["officer_id", "officer_unit_id", "officer_unit_detail_id"]

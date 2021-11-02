@@ -42,7 +42,6 @@ def column_to_proper_case(df, column):
     return df
 
 
-
 def column_race_correction(df, column):
     for race in race_values:
         words = race.lower().split("/")
@@ -71,29 +70,37 @@ def last_name_and_suffix(last_name):
     return last_name, suffix
 
 
-'''
 def date_correction(df, column):
     if column in df:
         if column == "officer_appointed_date":
             df[column] = pd.to_datetime(df[column]).dt.date
             df[column] = df[column].astype('object')
             for i in range(len(df[column])):
+                if len(str(df[column][i])) < len('2020-01-01'):
+                    continue
+      #              df[column][i] = None  # why not just leave blank
 
-                if int(str(df[column][i])[0:4]) > 2016:
+                elif int(str(df[column][i])[0:4]) > 2021:
                     print(int(str(df[column][i])[0:4]))
-                    df[column][i] = str(int(str(df[column][i])[0:4]) - 100)+str(df[column][i])[4:]
+                    df[column][i] = str(int(str(df[column][i])[0:4]) - 100) + str(df[column][i])[4:]
+#        df[column] = type_correction.column_to_date_time(df, column)
     return df
 '''
 
-
+'''
 def date_correction(df, column):
     if column in df:
         if column == "officer_appointed_date":
             df = type_correction.column_to_date_time(df, column)
             # officer_appointed_date - if the date is in the future, i.e., after 2021, subtract 100 years.
             # df.loc[pd.DatetimeIndex(df[column]).year > 2021, column] -= 100
+            today = pd.Timestamp.today().floor('d')
+            # print(pd.DatetimeIndex(df[column]).year) df.loc[pd.DatetimeIndex(df[column]).year > 2021,
+            # pd.DatetimeIndex(df[column]).year] = pd.DatetimeIndex(df[column]).year - 100
+            df.loc[df[column] > today, column] = today
 
     return df
+'''
 
 
 def int_correction(df, column):
