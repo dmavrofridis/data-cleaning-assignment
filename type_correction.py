@@ -5,16 +5,18 @@ import re
 
 def column_to_int(df, column):
     if column in df:
-        df[column] = pd.to_numeric(df[column], errors='coerce').fillna(0.0).astype(int)
+        df[column] = pd.to_numeric(df[column], errors='coerce')
+        #df[column] = df[column].astype('Int64')
+
     return df
 
 
 def column_to_bool(df, column):
     if column in df:
         for yes_value in yes_values:
-            df.loc[df[column] == yes_value, column] = True
+            df.loc[df[column] == yes_value, column] = 1
         for no_value in no_values:
-            df.loc[df[column] == no_value, column] = False
+            df.loc[df[column] == no_value, column] = 0
     return df
 
 

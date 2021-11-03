@@ -72,6 +72,7 @@ def left_join(df1, df2):
     vertical_stack = vertical_stack.drop(dropped_columns, axis =1)
 
     vertical_stack = vertical_stack.rename(columns={"id_x" : "id", "id_y" : "officer_id"})
+    vertical_stack = vertical_stack.drop_duplicates()
     # print(dropped_columns)
     # print(vertical_stack.columns.values.tolist())
 

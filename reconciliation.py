@@ -56,14 +56,14 @@ def column_race_correction(df, column):
 
 def last_name_and_suffix(last_name):
     last_name_suffix = last_name.split()
-    last_name = ""
-    suffix = ""
+    last_name = None
+    suffix = None
     for element in last_name_suffix:
         if element in suffix_values:
             suffix = element
         else:
-            if last_name == "":
-                last_name = last_name + element
+            if last_name is None:
+                last_name = element
             else:
                 last_name = last_name + " " + element
 
