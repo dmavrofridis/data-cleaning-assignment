@@ -78,8 +78,7 @@ def date_correction(df, column):
             for i in range(len(df[column])):
                 if len(str(df[column][i])) < len('2020-01-01'):
                     continue
-      #              df[column][i] = None  # why not just leave blank
-
+                    # df[column][i] = None  # why not just leave blank
                 elif int(str(df[column][i])[0:4]) > 2021:
                     print(int(str(df[column][i])[0:4]))
                     df[column][i] = str(int(str(df[column][i])[0:4]) - 100) + str(df[column][i])[4:]

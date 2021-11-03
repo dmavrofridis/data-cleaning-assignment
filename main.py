@@ -12,47 +12,44 @@ if __name__ == '__main__':
 
     connection = connect_to_db()
     dataframes = []
-    # get the tables using the list
-    for file_name in fileNames:
-        df = pd.read_sql('SELECT * FROM ' + file_name, connection)
-        df.name = file_name
-        dataframes.append(df)
+    dataframe_names = []
 
-    # loop through the collected dataframes (tables) in order to perform the necessary steps
-    for df in dataframes:
-        print(df.name)
-        # Checkpoint 2.1 (Type Correction)
-        for int_column in convert_to_int:
-            df = type_correction.column_to_int(df, int_column)
-        for bool_column in convert_to_bool:
-            df = type_correction.column_to_bool(df, bool_column)
-        for date_column in convert_to_date:
-            df = type_correction.column_to_date_time(df, date_column)
-        for time_stamp_column in convert_to_time_stamp:
-            df = type_correction.column_to_date_time(df, time_stamp_column)
-
-        # Checkpoint 2.2 (Reconciliation)
-        for string_column in reconciliation_to_string:
-            df = reconciliation.column_to_proper_case(df, string_column)
-        for int_column in reconciliation_to_int:
-            df = reconciliation.int_correction(df, int_column)
-        for date_column in reconciliation_to_date:
-            df = reconciliation.date_correction(df, date_column)
-
-    # Checkpoint 3, 3.1: Data Integration (Linking the Officers)
     # First step is to import the required tables
     data_officer = pd.read_sql('SELECT * FROM ' + "data_officer", connection)
     data_officer.name = "data_officer"
 
-    # dataframes[0] = officer_id_finder(dataframes[0], data_officer)
-    # dataframes[4] = officer_id_finder(dataframes[4], data_officer)
+    # get the tables using the list
+    for file_name in fileNames:
+        df = pd.read_sql('SELECT * FROM ' + file_name, connection)
+        dataframes.append(df)
+        dataframe_names.append(file_name)
 
-    # Run this code to perform a left
-    v_stack = left_join(dataframes[0], data_officer)
-    v_stack.name = 'VERTICAL STACK'
+    # loop through the collected dataframes (tables) in order to perform the necessary steps
+    for i in range(len(dataframes)):
+        print(dataframe_names[i])
+        # Checkpoint 2.1 (Type Correction)
+        for int_column in convert_to_int:
+            dataframes[i] = type_correction.column_to_int(dataframes[i], int_column)
+        for bool_column in convert_to_bool:
+            dataframes[i] = type_correction.column_to_bool(dataframes[i], bool_column)
+        for date_column in convert_to_date:
+            dataframes[i] = type_correction.column_to_date_time(dataframes[i], date_column)
+        for time_stamp_column in convert_to_time_stamp:
+            dataframes[i] = type_correction.column_to_date_time(dataframes[i], time_stamp_column)
 
-    for df in dataframes:
+        # Checkpoint 2.2 (Reconciliation)
+        for string_column in reconciliation_to_string:
+            dataframes[i] = reconciliation.column_to_proper_case(dataframes[i], string_column)
+        for int_column in reconciliation_to_int:
+            dataframes[i] = reconciliation.int_correction(dataframes[i], int_column)
+        for date_column in reconciliation_to_date:
+            dataframes[i] = reconciliation.date_correction(dataframes[i], date_column)
+
+        # Checkpoint 3, 3.1: Data Integration (Linking the Officers)
+        if dataframe_names[i] == "trr_trr_refresh" or dataframe_names[i] == "trr_trrstatus_refresh":
+            # Run this code to perform a left join between the dataframe and the data officer
+            dataframes[i] = left_join(dataframes[i], data_officer)
+
         # Export all the files to CSV
-        write_df_to_csv(df)
+        write_df_to_csv(dataframes[i], dataframe_names[i])
 
-    write_df_to_csv(v_stack)

@@ -14,7 +14,6 @@ convert_to_date = ["officer_appointed_date"]
 yes_values = ["Y", "YES", "Yes", "yes"]
 no_values = ["N", "NO", "No", "no"]
 
-
 '''Variables for Checkpoint 2.2 (Data Reconciliation)'''
 # officer_last_name - you may need to separate the last name from its suffix.
 # officer_appointed_date - if the date is in the future, i.e., after 2021, subtract 100 years.
@@ -44,3 +43,9 @@ match_columns_refresh = ["officer_first_name", "officer_middle_initial", "office
                          "officer_suffix"]
 
 new_columns = ["officer_id", "officer_unit_id", "officer_unit_detail_id"]
+
+# This is a list which contains the name of the columns that we have to drop when mergin tables
+# first_name, middle_initial, last_name, suffix_name (if applicable), gender, race, appointed_date, birth year
+columns_to_drop = ["officer_first_name", "officer_middle_initial", "officer_last_name",
+                   "officer_birth_year", "officer_appointed_date", "officer_gender", "officer_race",
+                   "officer_suffix"]
