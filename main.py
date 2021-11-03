@@ -44,12 +44,13 @@ if __name__ == '__main__':
     data_officer = pd.read_sql('SELECT * FROM ' + "data_officer", connection)
     data_officer.name = "data_officer"
 
-    #dataframes[0] = officer_id_finder(dataframes[0], data_officer)
-    #dataframes[4] = officer_id_finder(dataframes[4], data_officer)
+    # dataframes[0] = officer_id_finder(dataframes[0], data_officer)
+    # dataframes[4] = officer_id_finder(dataframes[4], data_officer)
 
-    ##########HEREEEEE###################
+    # Run this code to perform a left
     v_stack = left_join(dataframes[0], data_officer)
     v_stack.name = 'VERTICAL STACK'
+
     for df in dataframes:
         # Export all the files to CSV
         write_df_to_csv(df)
