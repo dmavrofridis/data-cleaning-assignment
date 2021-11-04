@@ -33,3 +33,49 @@ def left_join(df1, df2):
     # print(vertical_stack.columns.values.tolist())
 
     return vertical_stack
+
+
+def get_id_from_police_unit(vertical_stack, connection):
+    police_unit = pd.read_sql('SELECT * FROM ' + "data_policeunit", connection)
+    police_unit = police_unit[['unit_name', 'id']]
+    cleaned_id = []
+    for i in police_unit['unit_name']:
+        if i == '000':
+            cleaned_id.append(0)
+        else:
+            index = 0
+            while i[index] == '0':
+                index += 1
+            cleaned_id.append(i[index:])
+    police_unit['unit_name'] = pd.DataFrame(cleaned_id)
+    df = pd.merge(vertical_stack, police_unit, how='left', left_on='officer_unit_name', right_on='unit_name')
+    df = df.drop('unit_name', axis=1)
+    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_id"})
+
+    return df
+
+
+# Checkpoint 3.3
+def checking_for_the_final(df, trr_trr_refresh):
+    trr_ids = list(trr_trr_refresh['id'])
+    trr_ids = [str(i) for i in trr_ids]
+    new_df = pd.DataFrame(columns=df.columns)
+    for ind in range(len(df['trr_report_id'])):
+        try:
+            temp = df['trr_report_id'][ind]
+            if str(temp) in trr_ids:
+                try:
+                    #print('there')
+                    new_df.append(df[ind:ind+1])
+                except:
+                    continue
+            else:
+                print('remove')
+        except:
+            continue
+
+
+
+
+
+
