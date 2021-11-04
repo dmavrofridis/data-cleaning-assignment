@@ -19,3 +19,5 @@ __pycache__/type_correction.cpython-39.pyc
 __pycache__/write_data.cpython-39.pyc
 csv_files/trr_trr_refresh.csv
 csv_files/trr_trrstatus_refresh.csv
+*.csv
+*.pyc
