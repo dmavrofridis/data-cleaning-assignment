@@ -15,21 +15,29 @@ def list_with_one_out(index):
     return list_refresh, list_org
 
 
-def left_join(df1, df2):
+def left_join(df1, df1name, df2):
     append_data = []
     dropped_columns = df2.columns.values.tolist()
     dropped_columns.remove('id')
     for i in range(len(match_columns_refresh)):
         col_names = list_with_one_out(i)
-        append_data.append(pd.merge(df1, df2, left_on=col_names[0], right_on=col_names[1]))
+        append_data.append(pd.merge(df1, df2, left_on=col_names[0], right_on=col_names[1], how='outer'))
     vertical_stack = pd.concat(append_data)
     # This is a list which contains the name of the columns that we have to drop when mergin tables
     # first_name, middle_initial, last_name, suffix_name (if applicable), gender, race, appointed_date, birth year
     dropped_columns = dropped_columns + columns_to_drop
     vertical_stack = vertical_stack.drop(dropped_columns, axis=1)
-    vertical_stack = vertical_stack.rename(columns={"id_x": "id", "id_y": "officer_id"})
-    vertical_stack = vertical_stack.drop_duplicates()
+    if df1name == "trr_trr_refresh":
+        vertical_stack = vertical_stack.rename(columns={"id_x": "id", "id_y": "officer_id"})
+        vertical_stack = vertical_stack.sort_values(by='officer_id')
+        vertical_stack = vertical_stack.drop_duplicates(trr_trr_refresh_cols[:-1], keep='first')
+    elif df1name == "trr_trrstatus_refresh":
+        vertical_stack = vertical_stack.rename(columns={"id" : "officer_id"})
+        vertical_stack = vertical_stack.sort_values(by='officer_id')
+        vertical_stack = vertical_stack.drop_duplicates(trr_trrstatus_refresh_cols[:-1], keep='first')
+
     # print(dropped_columns)
     # print(vertical_stack.columns.values.tolist())
+
 
     return vertical_stack
