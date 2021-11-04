@@ -45,12 +45,20 @@ if __name__ == '__main__':
         for date_column in reconciliation_to_date:
             dataframes[i] = reconciliation.date_correction(dataframes[i], date_column)
 
-        # Checkpoint 3, 3.1: Data Integration (Linking the Officers)
+        # Checkpoint 3.1
         if dataframe_names[i] == "trr_trr_refresh" or dataframe_names[i] == "trr_trrstatus_refresh":
+            # Checkpoint 3.1: Data Integration (Linking the Officers)
             # Run this code to perform a left join between the dataframe and the data officer
             dataframes[i] = left_join(dataframes[i], data_officer)
 
+        # Checkpoint 3.2
+        if dataframe_names[i] == "trr_trr_refresh":
+            dataframes[i] = get_id_from_police_unit(dataframes[i], connection)
+
+        # Checkpoint 3.3
+        if dataframe_names[i] != "trr_trr_refresh":
+            #print(type((dataframes[i]['trr_report_id'][2])))
+            checking_for_the_final(dataframes[i], dataframes[0])
+
         # Export all the files to CSV
         write_df_to_csv(dataframes[i], dataframe_names[i])
-
-

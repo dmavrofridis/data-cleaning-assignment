@@ -2,6 +2,7 @@ from global_variables import *
 from global_variables import *
 import pandas as pd
 
+
 # Checkpoint 3.1
 def list_with_one_out(index):
     list_org = []
