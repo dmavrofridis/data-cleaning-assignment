@@ -49,3 +49,16 @@ new_columns = ["officer_id", "officer_unit_id", "officer_unit_detail_id"]
 columns_to_drop = ["officer_first_name", "officer_middle_initial", "officer_last_name",
                    "officer_birth_year", "officer_appointed_date", "officer_gender", "officer_race",
                    "officer_suffix"]
+
+trr_trr_refresh_cols = ['id', 'event_number', 'cr_number', 'beat', 'block', 'direction',
+                        'street', 'location', 'trr_datetime', 'indoor_or_outdoor', 'lighting_condition',
+                        'weather_condition', 'notify_oemc', 'notify_district_sergeant', 'notify_op_command',
+                        'notify_det_division', 'party_fired_first', 'officer_assigned_beat', 'officer_on_duty',
+                        'officer_in_uniform', 'officer_injured', 'officer_rank', 'subject_armed', 'subject_injured',
+                        'subject_alleged_injury', 'subject_age', 'subject_birth_year', 'subject_gender', 'subject_race',
+                        'officer_age', 'officer_unit_name', 'officer_unit_detail', 'trr_created', 'latitude', 'longitude',
+                        'point', 'officer_id']
+
+trr_trrstatus_refresh_cols = ['officer_rank', 'officer_star', 'status', 'status_datetime', 'officer_age',
+                              'officer_unit_at_incident', 'trr_report_id', 'officer_id']
+

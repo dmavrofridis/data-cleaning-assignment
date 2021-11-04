@@ -49,7 +49,7 @@ if __name__ == '__main__':
         if dataframe_names[i] == "trr_trr_refresh" or dataframe_names[i] == "trr_trrstatus_refresh":
             # Checkpoint 3.1: Data Integration (Linking the Officers)
             # Run this code to perform a left join between the dataframe and the data officer
-            dataframes[i] = left_join(dataframes[i], data_officer)
+            dataframes[i] = left_join(dataframes[i], dataframe_names[i], data_officer)
 
         # Checkpoint 3.2
         if dataframe_names[i] == "trr_trr_refresh":
