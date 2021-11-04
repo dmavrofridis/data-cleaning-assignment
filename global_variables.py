@@ -1,4 +1,8 @@
+import re
+
 conn_string = "host='codd01.research.northwestern.edu' dbname='postgres' user='cpdbstudent' password='DataSci4AI'"
+
+string_restructuring = re.compile(r"([.()!/-])")
 
 fileNames = ["trr_trr_refresh", "trr_actionresponse_refresh", "trr_charge_refresh",
              "trr_subjectweapon_refresh", "trr_trrstatus_refresh", "trr_weapondischarge_refresh"]
@@ -34,10 +38,16 @@ race_values = ["BLACK", "AMER IND/ALASKAN NATIVE", "ASIAN/PACIFIC ISLANDER", "UN
 reconciled_race_values = ["Hispanic", "Black", "White", "Asian / Pacific", "Native American / Alaskan Native",
                           "Unknown"]
 
+location_values = ["AIRPORT PARKING LOT", "AIRPORT TERMINAL MEZZANINE - NON-SECURE AREA", "CHA HALLWAY / STAIRWELL / ELEVATOR", "CHA PARKING LOT / GROUNDS", "CHURCH / SYNAGOGUE / PLACE OF WORSHIP", "COLLEGE / UNIVERSITY - GROUNDS", "CTA PARKING LOT / GARAGE / OTHER PROPERTY", "FACTORY / MANUFACTURING BUILDING", "GOVERNMENT BUILDING / PROPERTY", "HIGHWAY / EXPRESSWAY", "HOSPITAL BUILDING / GROUNDS", "HOTEL / MOTEL", "LAKEFRONT / WATERFRONT / RIVERBANK", "MEDICAL / DENTAL OFFICE", "MOVIE HOUSE / THEATER", "NURSING / RETIREMENT HOME", "OTHER RAILROAD PROPERTY / TRAIN DEPOT", "OTHER (SPECIFY)", "PARKING LOT / GARAGE (NON RESIDENTIAL)", "POLICE FACILITY / VEHICLE PARKING LOT", "RESIDENCE - GARAGE", "RESIDENCE - PORCH / HALLWAY", "RESIDENCE - YARD (FRONT / BACK)", "SCHOOL - PRIVATE BUILDING", "SCHOOL - PRIVATE GROUNDS", "SCHOOL - PUBLIC BUILDING", "SCHOOL - PUBLIC GROUNDS", "SPORTS ARENA / STADIUM", "TAVERN / LIQUOR STORE", "VACANT LOT / LAND", "VEHICLE - COMMERCIAL", "VEHICLE - OTHER RIDE SHARE SERVICE (LYFT, UBER, ETC.)"]
+
+reconciled_location_values = ["Appliance Store", "Factory/Manufacturing Building", "Apartment", "Government Building/Property", "Parking Lot/Garage(Non.Resid.)", "Airport Building Non-Terminal - Secure Area", "College/University Residence Hall", "Alley", "Cemetary", "Commercial / Business Office", "Vacant Property", "Bowling Alley", "Hospital Building/Grounds", "Cta Platform", "Gas Station", "Movie House/Theater", "Cta Bus", "Other", "Cta Garage / Other Property", "Vehicle Non-Commercial", "Cha Apartment", "School, Private, Grounds", "Sports Arena/Stadium", "Cleaning Store", "Athletic Club", "School, Public, Grounds", "Vehicle-Commercial", "School, Public, Building", "Medical/Dental Office", "Airport/Aircraft", "Airport Terminal Upper Level - Non-Secure Area", "Hotel/Motel", "Nursing Home/Retirement Home", "Highway/Expressway", "Construction Site", "Barbershop", "Tavern/Liquor Store", "Lakefront/Waterfront/Riverbank", "Jail / Lock-Up Facility", "Car Wash", "Airport Terminal Lower Level - Non-Secure Area", "Department Store", "Drug Store", "Airport Exterior - Non-Secure Area", "Convenience Store", "Other Commercial Transportation", "Residence Porch/Hallway", "School, Private, Building", "Bridge", "Police Facility/Veh Parking Lot", "Animal Hospital", "Currency Exchange", "Airport Terminal Lower Level - Secure Area", "Cta Tracks - Right Of Way", "Taxicab", "Sidewalk", "Street", "Residence-Garage", "Abandoned Building", "Bank", "Forest Preserve", "Airport Building Non-Terminal - Non-Secure Area", "Grocery Food Store", "Driveway - Residential", "Airport Exterior - Secure Area", "Church/Synagogue/Place Of Worship", "Airport Terminal Upper Level - Secure Area", "Restaurant", "Library", "Residential Yard (Front/Back)", "Vacant Lot/Land", "Airport Transportation System (Ats)", "Warehouse", "Fire Station", "Park Property", "Cha Parking Lot/Grounds", "Vehicle - Other Ride Service", "Cha Hallway/Stairwell/Elevator", "Cta Bus Stop", "Small Retail Store", "Other Railroad Prop / Train Depot", "College/University Grounds", "Cta Station", "Aircraft", "Day Care Center", "Bar Or Tavern", "Residence", "Pool Room", "Coin Operated Machine", "Cta Train"]
+
+
 '''Variables for Checkpoint 3 Data Integration (Linking the Officers)'''
 # first name, middle initial, last name, suffix name, birth year, appointed date, gender, race
 match_columns_org = ["first_name", "middle_initial", "last_name", "birth_year", "appointed_date",
                      "gender", "race", "suffix_name"]
+
 match_columns_refresh = ["officer_first_name", "officer_middle_initial", "officer_last_name",
                          "officer_birth_year", "officer_appointed_date", "officer_gender", "officer_race",
                          "officer_suffix"]

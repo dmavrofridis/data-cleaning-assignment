@@ -5,6 +5,7 @@ import re
 
 
 def column_to_proper_case(df, column):
+
     if column in df:
 
         if column == "officer_last_name":
@@ -31,13 +32,13 @@ def column_to_proper_case(df, column):
         elif column == "subject_race" or "officer_race":
             column_race_correction(df, column)
 
-        '''
-        elif column == "street" or column == "location":
-            df.loc["-" in df[column], column] = df[column].replace("-", " ")
-        '''
+        elif column == "location":
+            print("FOUNDDDDDD")
+            column_location_correction(df, column)
 
         # Finally convert the string to title ( Proper Case ) after preprocessing
         df[column] = df[column].str.upper().str.title()
+
 
     return df
 
@@ -51,6 +52,20 @@ def column_race_correction(df, column):
                 for processed_race in reconciled_race_values:
                     if word in processed_race.lower():
                         df.loc[df[column] == race, column] = processed_race
+                        completed = True
+
+
+def column_location_correction(df, column):
+    for location in location_values:
+        words = string_restructuring.sub(" \\1 ", location).lower()
+        re.split('-|,/|.|,', words)
+        completed = False
+        for word in words:
+            if not completed:
+                for processed_location in reconciled_location_values:
+                    if word in processed_location.lower():
+                        print("old location -> " + location + ", new locations -> " + processed_location)
+                        df.loc[df[column] == location, column] = processed_location
                         completed = True
 
 
@@ -82,7 +97,7 @@ def date_correction(df, column):
                 elif int(str(df[column][i])[0:4]) > 2021:
                     print(int(str(df[column][i])[0:4]))
                     df[column][i] = str(int(str(df[column][i])[0:4]) - 100) + str(df[column][i])[4:]
-#        df[column] = type_correction.column_to_date_time(df, column)
+    #        df[column] = type_correction.column_to_date_time(df, column)
     return df
 
 

@@ -57,8 +57,30 @@ if __name__ == '__main__':
 
         # Checkpoint 3.3
         if dataframe_names[i] != "trr_trr_refresh":
-            #print(type((dataframes[i]['trr_report_id'][2])))
+            # print(type((dataframes[i]['trr_report_id'][2])))
             checking_for_the_final(dataframes[i], dataframes[0])
 
         # Export all the files to CSV
         write_df_to_csv(dataframes[i], dataframe_names[i])
+
+'''
+# Code we used during the office hours to check the validity of the table merging 
+ if dataframe_names[i] == "trr_trr_refresh":
+            mask = dataframes[i]["officer_birth_year"].isnull() & dataframes[i]["officer_middle_initial"].isnull()
+            print(dataframes[i][mask].columns)
+            list_temp = dataframes[i][mask].columns
+            columns_todrop = []
+            for column in list_temp:
+                if column not in columns_to_drop:
+                    if column in dataframes[i][mask].columns:
+                        columns_todrop.append(column)
+
+            dataframes[i] = dataframes[i].drop(columns_todrop, axis=1)
+            dataframes[i] = dataframes[i].drop_duplicates(["officer_first_name", "officer_last_name"], keep='first')
+
+            mask = dataframes[i]["officer_birth_year"].isnull() & dataframes[i]["officer_middle_initial"].isnull()
+
+            write_df_to_csv(dataframes[i][mask], "mask")
+            exit(0)
+
+'''
