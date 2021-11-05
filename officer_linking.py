@@ -15,6 +15,18 @@ def list_with_one_out(index):
     return list_refresh, list_org
 
 
+def list_with_two_out(index1, index2):
+    list_org = []
+    list_refresh = []
+    # second_index = len(match_columns_refresh) - index
+    for i in range(len(match_columns_refresh)):
+        if i != index1 and i != index2:
+            list_org.append(match_columns_org[i])
+            list_refresh.append(match_columns_refresh[i])
+
+    return list_refresh, list_org
+
+
 # Checkpoint 3.1
 def left_join(df1, df1name, df2):
     append_data = []
@@ -29,12 +41,6 @@ def left_join(df1, df1name, df2):
             append_data.append(pd.merge(df1, df2, left_on=col_names[0], right_on=col_names[1], how='outer'))
         vertical_stack = pd.concat(append_data)
 
-    # first, rename ids so they match the database structure
-    # then, sort by officer_id (required for next step)
-    # drop_duplicates, but only consider rows which ARE NOT officer_id, keep the first one (this is why sorting works,
-    #   the process will naturally generate a copy of officer data that is connected to a None officer_id
-    #   When we sort, Nones are pushed to the bottom.  To Keep first removes these errors
-    # drop the extra row created by our process, amusingly always assigned to Karina Aaron
     if df1name == "trr_trr_refresh":
         vertical_stack = final_touch_up(vertical_stack, {"id_x": "id", "id_y": "officer_id"}, trr_trr_refresh_cols,
                                         "id")
@@ -67,12 +73,15 @@ def get_id_from_police_unit(vertical_stack, connection):
             cleaned_id.append(i[index:])
 
     police_unit['unit_name'] = pd.DataFrame(cleaned_id)
-    df = pd.merge(vertical_stack, police_unit, how='left', left_on='officer_unit_name', right_on='unit_name')
-    df = df.drop('unit_name', axis=1)
-    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_id"})
+    df = pd.merge(vertical_stack, police_unit, how='left', left_on='officer_unit_detail', right_on='unit_name')
+    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_id_detail"})
+    df = pd.merge(df, police_unit, how='left', left_on='officer_unit_name', right_on='unit_name')
+    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_name_id"})
+    df = df.drop_duplicates(subset=['id'])
+
+
 
     return df
-
 
 
 # Checkpoint 3.3

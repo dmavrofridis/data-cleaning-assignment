@@ -72,3 +72,4 @@ trr_trr_refresh_cols = ['id', 'event_number', 'cr_number', 'beat', 'block', 'dir
 trr_trrstatus_refresh_cols = ['officer_rank', 'officer_star', 'status', 'status_datetime', 'officer_age',
                               'officer_unit_at_incident', 'trr_report_id', 'officer_id']
 
+

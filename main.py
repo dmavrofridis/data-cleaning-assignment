@@ -15,7 +15,7 @@ if __name__ == '__main__':
     dataframe_names = []
 
     # First step is to import the required tables
-    data_officer = pd.read_sql('SELECT * FROM ' + "data_officer", connection)
+    data_officer = pd.read_sql('SELECT * FROM data_officer', connection)
     data_officer.name = "data_officer"
 
     # get the tables using the list
