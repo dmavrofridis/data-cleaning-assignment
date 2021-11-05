@@ -23,7 +23,9 @@ if __name__ == '__main__':
 
     # loop through the collected dataframes (tables) in order to perform the necessary steps
     for i in range(len(dataframes)):
-        print(dataframe_names[i])
+
+        print("\n" + dataframe_names[i])
+        print("- Initial State from DB", dataframes[i].shape)
 
         # Checkpoint 2.1 (Type Correction)
         for int_column in convert_to_int:
@@ -35,6 +37,9 @@ if __name__ == '__main__':
         for time_stamp_column in convert_to_time_stamp:
             dataframes[i] = type_correction.column_to_date_time(dataframes[i], time_stamp_column)
 
+        print("- Checkpoint 2.1", dataframes[i].shape)
+
+
         # Checkpoint 2.2 (Reconciliation)
         for string_column in reconciliation_to_string:
             dataframes[i] = reconciliation.column_to_proper_case(dataframes[i], string_column)
@@ -43,20 +48,29 @@ if __name__ == '__main__':
         for date_column in reconciliation_to_date:
             dataframes[i] = reconciliation.date_correction(dataframes[i], date_column)
 
+        print("- Checkpoint 2.2", dataframes[i].shape)
+
         # Checkpoint 3.1
         if dataframe_names[i] == "trr_trr_refresh" or dataframe_names[i] == "trr_trrstatus_refresh":
             # Checkpoint 3.1: Data Integration (Linking the Officers)
             # Run this code to perform a left join between the dataframe and the data officer
             dataframes[i] = left_join(dataframes[i], dataframe_names[i], data_officer)
 
+        print("- Checkpoint 3.1", dataframes[i].shape)
+
         # Checkpoint 3.2
         if dataframe_names[i] == "trr_trr_refresh":
             dataframes[i] = get_id_from_police_unit(dataframes[i], connection)
+
+        print("- Checkpoint 3.2", dataframes[i].shape)
 
         # Checkpoint 3.3
         if dataframe_names[i] != "trr_trr_refresh":
             # print(type((dataframes[i]['trr_report_id'][2])))
             checking_for_the_final(dataframes[i], dataframes[0])
+
+        print("- Checkpoint 3.3", dataframes[i].shape)
+
 
         # Checkpoint 4
         # drop the first column from charge table
@@ -75,6 +89,10 @@ if __name__ == '__main__':
         dataframes[i] = dataframes[i][final_columns[i]]
         # Export all the files to CSV
         write_df_to_csv(dataframes[i], final_file_names[i])
+
+        print("- Checkpoint 4", dataframes[i].shape)
+
+
 
 '''
 # Code we used during the office hours to check the validity of the table merging 

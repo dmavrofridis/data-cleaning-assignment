@@ -31,7 +31,6 @@ def list_with_two_out(index1, index2):
 def left_join(df1, df1name, df2):
     append_data = []
     dropped_columns = df2.columns.values.tolist()
-    dropped_columns = dropped_columns + columns_to_drop
     dropped_columns.remove('id')
     for i in range(len(match_columns_refresh)):
         for j in range(len(match_columns_refresh)):
@@ -41,16 +40,34 @@ def left_join(df1, df1name, df2):
             append_data.append(pd.merge(df1, df2, left_on=col_names[0], right_on=col_names[1], how='outer'))
         vertical_stack = pd.concat(append_data)
 
+    print("- Checkpoint 3.0.1", vertical_stack.shape)
+
+    # first, rename ids so they match the database structure
+    # then, sort by officer_id (required for next step)
+    # drop_duplicates, but only consider rows which ARE NOT officer_id, keep the first one (this is why sorting works,
+    #   the process will naturally generate a copy of officer data that is connected to a None officer_id
+    #   When we sort, Nones are pushed to the bottom.  To Keep first removes these errors
+    # drop the extra row created by our process, amusingly always assigned to Karina Aaron
     if df1name == "trr_trr_refresh":
-        vertical_stack = final_touch_up(vertical_stack, {"id_x": "id", "id_y": "officer_id"}, trr_trr_refresh_cols,
-                                        "id")
-    else:
-        vertical_stack = final_touch_up(vertical_stack, {"id": "officer_id"}, trr_trrstatus_refresh_cols,
-                                        "trr_report_id")
+        vertical_stack = vertical_stack.rename(columns={"id_x": "id", "id_y": "officer_id"})
+        vertical_stack = vertical_stack.sort_values(by='officer_id')
+        vertical_stack = vertical_stack.drop_duplicates(trr_trr_refresh_cols[:-1], keep='first')
+        vertical_stack = vertical_stack.dropna(subset=["id"])
+    elif df1name == "trr_trrstatus_refresh":
+        vertical_stack = vertical_stack.rename(columns={"id": "officer_id"})
+        vertical_stack = vertical_stack.sort_values(by='officer_id')
+        vertical_stack = vertical_stack.drop_duplicates(trr_trrstatus_refresh_cols[:-1], keep='first')
+        vertical_stack = vertical_stack.dropna(subset=["trr_report_id"])
+
+    print("- Checkpoint 3.0.2", vertical_stack.shape)
 
     # This is a list which contains the name of the columns that we have to drop when mergin tables
     # first_name, middle_initial, last_name, suffix_name (if applicable), gender, race, appointed_date, birth year
+    dropped_columns = dropped_columns + columns_to_drop
     vertical_stack = vertical_stack.drop(dropped_columns, axis=1)
+
+    print("- Checkpoint 3.0.3", vertical_stack.shape)
+
 
     # print(dropped_columns)
     # print(vertical_stack.columns.values.tolist())
@@ -80,9 +97,6 @@ def get_id_from_police_unit(vertical_stack, connection):
     df = df.drop_duplicates(subset=['id'])
     df = df.drop(['unit_name_x', 'unit_name_y'], axis =1)
 
-
-
-
     return df
 
 
@@ -106,6 +120,7 @@ def checking_for_the_final(df, trr_trr_refresh):
             continue
 
 
+'''
 def final_touch_up(vertical_stack, rename_string, columns, drop_na_value):
     # first, rename ids so they match the database structure
     # then, sort by officer_id (required for next step)
@@ -119,3 +134,4 @@ def final_touch_up(vertical_stack, rename_string, columns, drop_na_value):
     vertical_stack = vertical_stack.dropna(subset=[drop_na_value])
     vertical_stack = vertical_stack.drop_duplicates(["officer_id", drop_na_value], keep='first')
     return vertical_stack
+'''
