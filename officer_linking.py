@@ -91,11 +91,11 @@ def get_id_from_police_unit(vertical_stack, connection):
 
     police_unit['unit_name'] = pd.DataFrame(cleaned_id)
     df = pd.merge(vertical_stack, police_unit, how='left', left_on='officer_unit_detail', right_on='unit_name')
-    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_id_detail"})
+    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_detail_id"})
     df = pd.merge(df, police_unit, how='left', left_on='officer_unit_name', right_on='unit_name')
-    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_name_id"})
+    df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_id"})
     df = df.drop_duplicates(subset=['id'])
-    df = df.drop(['unit_name_x', 'unit_name_y'], axis =1)
+    df = df.drop(['unit_name_x', 'unit_name_y', 'officer_unit_name', 'officer_unit_detail'], axis=1)
 
     return df
 
