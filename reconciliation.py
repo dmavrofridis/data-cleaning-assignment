@@ -5,9 +5,7 @@ import re
 
 
 def column_to_proper_case(df, column):
-
     if column in df:
-
         if column == "officer_last_name":
             # officer_last_name - you may need to separate the last name from its suffix.
             # Remove the suffix from the last name if it exists and create new column to store the suffix
@@ -39,7 +37,6 @@ def column_to_proper_case(df, column):
         # Finally convert the string to title ( Proper Case ) after preprocessing
         df[column] = df[column].str.upper().str.title()
 
-
     return df
 
 
@@ -56,9 +53,9 @@ def column_race_correction(df, column):
 
 
 def column_location_correction(df, column):
-    for location in location_values:
-        words = string_restructuring.sub(" \\1 ", location).lower()
-        re.split('-|,/|.|,', words)
+    for location in location_values.lower():
+        words = string_restructuring.sub(" \\1 ", location)
+        re.split('-|,/|.|,', location)
         completed = False
         for word in words:
             if not completed:
