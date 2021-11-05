@@ -66,6 +66,7 @@ def column_location_correction(df, column):
                         df.loc[df[column] == location, column] = processed_location
                         completed = True
 
+
 def column_street_correction(df, column):
     for street in street_values:
         words = string_restructuring.sub(" \\1 ", street).lower()

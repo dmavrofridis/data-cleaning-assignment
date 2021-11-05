@@ -229,11 +229,12 @@ final_columns = [
        "handgun_worn_type", "handgun_drawn_type", "method_used_to_reload", "sight_used", "protective_cover_used",
        "discharge_distance", "object_struck_of_discharge", "discharge_position", "trr_id"]
 
-    , ["status", "status_datetime", "officer_id", "trr_id"]
+    , ["rank", "star", "status", "status_datetime", "officer_id", "trr_id"]
 
     , ["weapon_type", "firearm_caliber", "weapon_description", "trr_id"]]
 
 
 trr_column_mismatch = ["cr_number", "event_number", "notify_oemc", "notify_op_command", "notify_det_division"]
-
 trr_column_proper = ["crid", "event_id", "notify_OEMC", "notify_OP_command", "notify_DET_division"]
+trr_status_column_mismatch = ["officer_rank", "officer_star"]
+trr_status_column_proper = ["rank", "star"]
