@@ -60,7 +60,7 @@ def left_join(df1, df1name, df2):
 
 # Checkpoint 3.2
 def get_id_from_police_unit(vertical_stack, connection):
-    police_unit = pd.read_sql('SELECT * FROM data_policeunit', connection)
+    police_unit = pd.read_sql('SELECT*FROM data_policeunit', connection)
     police_unit = police_unit[['unit_name', 'id']]
     cleaned_id = []
     for i in police_unit['unit_name']:
@@ -78,6 +78,8 @@ def get_id_from_police_unit(vertical_stack, connection):
     df = pd.merge(df, police_unit, how='left', left_on='officer_unit_name', right_on='unit_name')
     df = df.rename(columns={"id_x": 'id', "id_y": "officer_unit_name_id"})
     df = df.drop_duplicates(subset=['id'])
+    df = df.drop(['unit_name_x', 'unit_name_y'], axis =1)
+
 
 
 
