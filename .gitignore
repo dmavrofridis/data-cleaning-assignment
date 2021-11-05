@@ -21,3 +21,6 @@ csv_files/trr_trr_refresh.csv
 csv_files/trr_trrstatus_refresh.csv
 *.csv
 *.pyc
+*.csv
+.idea/misc.xml
+.idea/data-cleaning-assignment.iml
