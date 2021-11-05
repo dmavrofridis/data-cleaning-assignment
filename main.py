@@ -1,4 +1,4 @@
-from column_reordering import *
+from column_processing import *
 from read_data import *
 from write_data import *
 from officer_linking import *
@@ -59,8 +59,16 @@ if __name__ == '__main__':
             checking_for_the_final(dataframes[i], dataframes[0])
 
         # Checkpoint 4
-        # column reordering
-        #dataframes = reorder_columns(dataframes[i], final_columns[i])
+        # drop the first column from charge table
+        if dataframe_names[i] == "trr_charge_refresh":
+            dataframes[i] = dataframes[i].drop("trr_rd_no", axis=1)
+        # first rename the columns according the project guidelines
+        if dataframe_names[i] == "trr_trr_refresh":
+            rename_trr(dataframes[i], trr_column_proper, trr_column_mismatch)
+        if dataframe_names[i] != "trr_trr_refresh":
+            dataframes[i].rename(columns={"trr_report_id" : "trr_id"}, inplace=True)
+        # Reorder the columns
+        dataframes[i] = dataframes[i][final_columns[i]]
         # Export all the files to CSV
         write_df_to_csv(dataframes[i], final_file_names[i])
 
