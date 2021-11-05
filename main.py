@@ -1,12 +1,9 @@
-import pandas as pd
-import numpy as np
-from global_variables import *
+from column_reordering import *
 from read_data import *
 from write_data import *
 from officer_linking import *
 import reconciliation
 import type_correction
-import re
 
 if __name__ == '__main__':
 
@@ -27,6 +24,7 @@ if __name__ == '__main__':
     # loop through the collected dataframes (tables) in order to perform the necessary steps
     for i in range(len(dataframes)):
         print(dataframe_names[i])
+
         # Checkpoint 2.1 (Type Correction)
         for int_column in convert_to_int:
             dataframes[i] = type_correction.column_to_int(dataframes[i], int_column)
@@ -60,8 +58,11 @@ if __name__ == '__main__':
             # print(type((dataframes[i]['trr_report_id'][2])))
             checking_for_the_final(dataframes[i], dataframes[0])
 
+        # Checkpoint 4
+        # column reordering
+        #dataframes = reorder_columns(dataframes[i], final_columns[i])
         # Export all the files to CSV
-        write_df_to_csv(dataframes[i], dataframe_names[i])
+        write_df_to_csv(dataframes[i], final_file_names[i])
 
 '''
 # Code we used during the office hours to check the validity of the table merging 

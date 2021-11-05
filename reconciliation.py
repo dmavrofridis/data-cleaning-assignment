@@ -21,18 +21,20 @@ def column_to_proper_case(df, column):
             df["officer_last_name"] = last_names
             df["officer_suffix"] = suffix_list
 
-        elif column == "officer_gender":
+        if column == "officer_gender":
             for male_gender_value in male_gender_values:
                 df.loc[df[column] == male_gender_value, column] = reconciled_male_value
             for female_gender_value in female_gender_values:
                 df.loc[df[column] == female_gender_value, column] = reconciled_female_value
 
-        elif column == "subject_race" or "officer_race":
+        if column == "subject_race" or column == "officer_race":
             column_race_correction(df, column)
 
-        elif column == "location":
-            print("FOUNDDDDDD")
+        if column == "location":
             column_location_correction(df, column)
+
+        if column == "street":
+            column_street_correction(df, column)
 
         # Finally convert the string to title ( Proper Case ) after preprocessing
         df[column] = df[column].str.upper().str.title()
@@ -53,16 +55,27 @@ def column_race_correction(df, column):
 
 
 def column_location_correction(df, column):
-    for location in location_values.lower():
-        words = string_restructuring.sub(" \\1 ", location)
+    for location in location_values:
+        words = string_restructuring.sub(" \\1 ", location).lower()
         re.split('-|,/|.|,', location)
         completed = False
         for word in words:
             if not completed:
                 for processed_location in reconciled_location_values:
                     if word in processed_location.lower():
-                        print("old location -> " + location + ", new locations -> " + processed_location)
                         df.loc[df[column] == location, column] = processed_location
+                        completed = True
+
+def column_street_correction(df, column):
+    for street in street_values:
+        words = string_restructuring.sub(" \\1 ", street).lower()
+        re.split('-|,/|.|,', street)
+        completed = False
+        for word in words:
+            if not completed:
+                for processed_street in reconciled_street_values:
+                    if word in processed_street.lower():
+                        df.loc[df[column] == street, column] = processed_street
                         completed = True
 
 
