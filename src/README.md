@@ -16,14 +16,17 @@
 
 ### type_correction.py - Converts data to proper types
 
-## Required Packages:
-Pandas
-  
-Re
-  
-Psycopg2
+### global_variables.py - Contains various lists used throughout the project
 
-Numpy
+## Required Packages:
+
+### Pandas
+  
+### Re
+  
+### Psycopg2
+
+### Numpy
 
 ## Instructions:
 
