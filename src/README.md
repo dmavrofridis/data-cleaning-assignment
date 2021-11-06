@@ -1,20 +1,20 @@
 # Data Cleaning
 
-##Overview
+## Overview
 
-###main.py - Main file of the project
+### main.py - Main file of the project
 
-###read_data.py - Reads in the data from the CPDP database
+### read_data.py - Reads in the data from the CPDP database
 
-###write_data.py - Writes the csvs to the output directory
+### write_data.py - Writes the csvs to the output directory
 
-###column_processing.py - Renames columns
+### column_processing.py - Renames columns
 
-###officer_linking.py - Generates officer ids, unit ids, and unit detail ids and checks the trr ids of other tables
+### officer_linking.py - Generates officer ids, unit ids, and unit detail ids and checks the trr ids of other tables
 
-###reconciliation.py - Reconciles the various improperly filed data
+### reconciliation.py - Reconciles the various improperly filed data
 
-###type_correction.py - Converts data to proper types
+### type_correction.py - Converts data to proper types
 
 ## Required Packages:
 Pandas
