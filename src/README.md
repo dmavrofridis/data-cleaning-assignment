@@ -1,11 +1,11 @@
 # Data Cleaning
 
 # Required Packages:
-  /Pandas
+Pandas
   
-  /Re
+Re
   
-  /Psycopg2
+Psycopg2
 
 ## Instructions:
 
