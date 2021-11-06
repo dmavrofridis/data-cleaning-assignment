@@ -2,9 +2,7 @@
 
 # Required Packages:
   Pandas
-  
   Re
-  
   Psycopg2
 
 ## Instructions:
