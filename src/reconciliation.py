@@ -60,7 +60,7 @@ def column_location_correction(df, column):
             for processed_location in reconciled_location_values:
                 if word in processed_location.lower():
                     df.loc[df[column] == location, column] = processed_location
-                    print("old location -> " + location + ", new location -> ", processed_location)
+                    #print("old location -> " + location + ", new location -> ", processed_location)
                     break
 
 
@@ -72,7 +72,7 @@ def column_street_correction(df, column):
             for processed_street in reconciled_street_values:
                 if word in processed_street.lower():
                     df.loc[df[column] == street, column] = processed_street
-                    print("old street -> " + street + ", new street -> ", processed_street)
+                    #print("old street -> " + street + ", new street -> ", processed_street)
                     break
 
 
