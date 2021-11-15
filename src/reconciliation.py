@@ -21,7 +21,7 @@ def column_to_proper_case(df, column):
             df["officer_last_name"] = last_names
             df["officer_suffix"] = suffix_list
 
-        if column == "officer_gender":
+        if column == "officer_gender" or column == "subject_gender":
             for male_gender_value in male_gender_values:
                 df.loc[df[column] == male_gender_value, column] = reconciled_male_value
             for female_gender_value in female_gender_values:
@@ -38,6 +38,9 @@ def column_to_proper_case(df, column):
 
         # Finally convert the string to title ( Proper Case ) after preprocessing
         df[column] = df[column].str.upper().str.title()
+
+        if column == "party_fired_first":
+            df[column] = df[column].str.upper()
 
     return df
 
