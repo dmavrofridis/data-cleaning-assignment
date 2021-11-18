@@ -97,8 +97,6 @@ if __name__ == '__main__':
 
         print("- Checkpoint 4", dataframes[i].shape)
 
-
-
 '''
 # Code we used during the office hours to check the validity of the table merging 
  if dataframe_names[i] == "trr_trr_refresh":
