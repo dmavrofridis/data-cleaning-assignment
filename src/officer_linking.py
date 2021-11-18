@@ -1,6 +1,7 @@
 from global_variables import *
 from global_variables import *
 import pandas as pd
+from type_correction import *
 
 
 # Checkpoint 3.1

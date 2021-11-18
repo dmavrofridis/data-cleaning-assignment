@@ -1,6 +1,6 @@
 import re
 
-conn_string = "host='codd01.research.northwestern.edu' dbname='postgres' user='cpdbstudent' password='DataSci4AI'"
+conn_string = "host='codd04.research.northwestern.edu' port='5433' dbname='postgres' user='cpdbstudent' password='DataSci4AI'"
 
 string_restructuring = re.compile(r"([.()!/-])")
 
@@ -135,8 +135,8 @@ trr_trrstatus_refresh_cols = ['officer_rank', 'officer_star', 'status', 'status_
 
 '''Variables for Checkpoint 4 ( Column Reordering )'''
 
-final_file_names = ["trr_trr", "trr_actionresponse", "trr_charge", "trr_weapondischarge", "trr_trrstatus",
-                    "trr_subjectweapon"]
+final_file_names = ["trr-trr", "trr-actionresponse", "trr-charge", "trr-weapondischarge", "trr-trrstatus",
+                    "trr-subjectweapon"]
 
 final_columns = [
 
@@ -164,3 +164,10 @@ trr_column_mismatch = ["cr_number", "event_number", "notify_oemc", "notify_op_co
 trr_column_proper = ["crid", "event_id", "notify_OEMC", "notify_OP_command", "notify_DET_division"]
 trr_status_column_mismatch = ["officer_rank", "officer_star"]
 trr_status_column_proper = ["rank", "star"]
+
+
+# Final list to change to integers
+final_ints = ["id", "event_id", "beat", "subject_age", "subject_birth_year", "officer_id", "officer_unit_id",
+              "officer_unit_detail_id", "trr_id", "notify_OEMC", "notify_district_sergeant", "notify_OP_command",
+              "notify_DET_division", "officer_on_duty", "officer_in_uniform", "subject_armed", "subject_injured",
+              "subject_alleged_injury", "total_number_of_shots", ""]

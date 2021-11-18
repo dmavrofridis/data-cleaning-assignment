@@ -5,9 +5,7 @@ import re
 
 def column_to_int(df, column):
     if column in df:
-        df[column] = pd.to_numeric(df[column], errors='coerce')
-        #df[column] = df[column].astype('Int64')
-
+        df[column] = pd.to_numeric(df[column], errors='coerce').fillna(0).astype(int)
     return df
 
 

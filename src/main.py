@@ -71,7 +71,6 @@ if __name__ == '__main__':
 
         print("- Checkpoint 3.3", dataframes[i].shape)
 
-
         # Checkpoint 4
         # drop the first column from charge table
         if dataframe_names[i] == "trr_charge_refresh":
@@ -87,6 +86,12 @@ if __name__ == '__main__':
             dataframes[i].rename(columns={"trr_report_id": "trr_id"}, inplace=True)
         # Reorder the columns
         dataframes[i] = dataframes[i][final_columns[i]]
+
+        # convert the final files floats into ints
+        for column in dataframes[i]:
+            if dataframes[i][column].dtype == 'float64':
+                dataframes[i] = type_correction.column_to_int(dataframes[i], column)
+
         # Export all the files to CSV
         write_df_to_csv(dataframes[i], final_file_names[i])
 
