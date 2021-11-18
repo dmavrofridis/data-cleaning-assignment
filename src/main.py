@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
         # Checkpoint 2.1 (Type Correction)
         for int_column in convert_to_int:
-            dataframes[i] = type_correction.column_to_int(dataframes[i], int_column)
+            dataframes[i] = type_correction.column_to_int (dataframes[i], int_column)
         for bool_column in convert_to_bool:
             dataframes[i] = type_correction.column_to_bool(dataframes[i], bool_column)
         for date_column in convert_to_date:
