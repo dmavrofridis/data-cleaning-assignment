@@ -1,4 +1,4 @@
-# Data Cleaning
+# MSAI 339 Data Cleaning & Integration Assignment
 
 ## Before you run the code:
 - Please make sure you have an active internet connection.
